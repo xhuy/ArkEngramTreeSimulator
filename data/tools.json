@@ -1,0 +1,32 @@
+[
+	{
+		"id" : 34,
+		"name" : "Stone Hatchet",
+		"type" : "Tool",
+		"health" : 40,
+		"requiredLevel" : 2,
+		"engramPoints" : 3,
+		"prerequisites" : [],
+		"unlocks" : [36],
+		"image" : "00002-Stone_Hatchet.png",
+		"imageHeight" : 256,
+		"imageWidth" : 256,
+		"imageX" : 0,
+		"imageY" : 0
+	},
+	{
+		"id" : ,
+		"name" : "Note",
+		"type" : "Tool",
+		"health" : ,
+		"requiredLevel" : 2,
+		"engramPoints" : 3,
+		"prerequisites" : [],
+		"unlocks" : [],
+		"image" : "00004-Note.png",
+		"imageHeight" : 256,
+		"imageWidth" : 256,
+		"imageX" : 0,
+		"imageY" : 0
+	}
+]

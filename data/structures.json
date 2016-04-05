@@ -1,0 +1,32 @@
+[
+	{
+		"id" : 81,
+		"name" : "Thatch Foundation",
+		"type" : "Structure Thatch",
+		"health" : 2400,
+		"requiredLevel" : 2,
+		"engramPoints" : 3,
+		"prerequisites" : [],
+		"unlocks" : [88],
+		"image" : "00007-Thatch_Foundation.png",
+		"imageHeight" : 256,
+		"imageWidth" : 256,
+		"imageX" : 0,
+		"imageY" : 0
+	},
+	{
+		"id" : 18,
+		"name" : "Thatch Doorframe",
+		"type" : "Structure Thatch",
+		"health" : 2400,
+		"requiredLevel" : 2,
+		"engramPoints" : 3,
+		"prerequisites" : [],
+		"unlocks" : [80,83],
+		"image" : "00008-Thatch_Doorframe.png",
+		"imageHeight" : 256,
+		"imageWidth" : 256,
+		"imageX" : 0,
+		"imageY" : 0
+	}
+]

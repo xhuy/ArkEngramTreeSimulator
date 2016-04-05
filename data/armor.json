@@ -1,0 +1,32 @@
+[
+	{
+		"id" : 17,
+		"name" : "Cloth Pants",
+		"type" : "Armor Cloth",
+		"health" : 25,
+		"requiredLevel" : 2,
+		"engramPoints" : 3,
+		"prerequisites" : [],
+		"unlocks" : [22],
+		"image" : "00005-Cloth_Pants.png",
+		"imageHeight" : 256,
+		"imageWidth" : 256,
+		"imageX" : 0,
+		"imageY" : 0
+	},
+	{
+		"id" : 18,
+		"name" : "Cloth Shirt",
+		"type" : "Amor Cloth",
+		"health" : 25,
+		"requiredLevel" : 2,
+		"engramPoints" : 3,
+		"prerequisites" : [],
+		"unlocks" : [23],
+		"image" : "00006-Cloth_Shirt.png",
+		"imageHeight" : 256,
+		"imageWidth" : 256,
+		"imageX" : 0,
+		"imageY" : 0
+	}
+]
