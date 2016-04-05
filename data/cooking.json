@@ -1,0 +1,17 @@
+[
+	{
+		"id" : 39,
+		"name" : "Campfire",
+		"type" : "Cooking",
+		"health" : 100,
+		"requiredLevel" : 2,
+		"engramPoints" : 3,
+		"prerequisites" : [],
+		"unlocks" : [125,128,360,"Stone Fireplace"],
+		"image" : "00001-Campfire.png",
+		"imageHeight" : 256,
+		"imageWidth" : 256,
+		"imageX" : 0,
+		"imageY" : 0
+	}
+]

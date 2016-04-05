@@ -1,0 +1,17 @@
+[
+	{
+		"id" : 57,
+		"name" : "Spear",
+		"type" : "Weapon Melee",
+		"health" : ,
+		"requiredLevel" : 2,
+		"engramPoints" : 3,
+		"prerequisites" : [],
+		"unlocks" : [140],
+		"image" : "00003-Spear.png",
+		"imageHeight" : 256,
+		"imageWidth" : 256,
+		"imageX" : 0,
+		"imageY" : 0
+	}
+]
