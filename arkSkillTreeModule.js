@@ -1,46 +1,53 @@
 var arkSkillTreeModule = (function() {
 	// private
 	var cookingItems;
-	var cookingImages;
+	var toolsItems;
 	return {
 		// public
 		init : function() {
 
-			$.getJSON('data/cooking.json', function(data) {
+			$.ajax({
+				dataType : "json",
+				url : 'data/cooking.json',
+				async : true
+			}).done(function(data, textStatus, jqXHR) {
 				cookingItems = data;
-				cookingImages = [];
-				for (var i = 0; i < cookingItems.length; i++) {
-					var image = new Image();
-					image.src = cookingItems[i].image;
-					cookingImages.push(image);
-				}
-				var canvas = new fabric.Canvas('canvasArkEngramTree');
+				arkSkillTreeModule.drawImages(cookingItems);
+			}).fail(function(jqXHR, textStatus, errorThrown) {
+				alert(textStatus);
+			});
 
-				var images = arkSkillTreeModule.getCookingImages();
+			$.ajax({
+				dataType : "json",
+				url : 'data/tools.json',
+				async : true
+			}).done(function(data, textStatus, jqXHR) {
+				toolsItems = data;
+				arkSkillTreeModule.drawImages(toolsItems);
+			}).fail(function(jqXHR, textStatus, errorThrown) {
+				alert(textStatus);
+			});
 
-				for (var i = 0; i < images.length; i++) {
-					var imgInstance = new fabric.Image(images[i], {
-						left : 10,
-						top : 20,
-						angle : 0,
-						opacity : 0.85
-					});
-					canvas.add(imgInstance);
-				}
+		},
+
+		drawImages : function(data) {
+			var canvas = new fabric.Canvas('canvasArkEngramTree');
+
+			$.each(data, function(index, value) {
+				fabric.Image.fromURL(value.image, function(image) {
+					canvas.add(image);
+				});
 			});
 		},
 
-		getCookingImages : function() {
-			return cookingImages;
+		getCookingItems : function() {
+			return cookingItems;
 		}
 	};
 })();
 
 $(document).ready(function() {
+
 	arkSkillTreeModule.init();
-	
-	var canvas = new fabric.Canvas('canvasArkEngramTree');
-	fabric.Image.fromURL('images/00001-Campfire.png', function(oImg) {
-		  canvas.add(oImg);
-		});
+
 });
