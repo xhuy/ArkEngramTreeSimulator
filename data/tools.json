@@ -8,11 +8,12 @@
 		"engramPoints" : 3,
 		"prerequisites" : [],
 		"unlocks" : [36],
-		"image" : "images/Stone_Hatchet.png",
+		"imageURL" : "images/Stone_Hatchet.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
 		"imageX" : 0,
-		"imageY" : 0
+		"imageY" : 0,
+		"image" : null
 	},
 	{
 		"id" : null,
@@ -23,10 +24,27 @@
 		"engramPoints" : 3,
 		"prerequisites" : [],
 		"unlocks" : [],
-		"image" : "images/Note.png",
+		"imageURL" : "images/Note.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
 		"imageX" : 0,
-		"imageY" : 0
+		"imageY" : 0,
+		"image" : null
+	},
+	{
+		"id" : null,
+		"name" : "Waterskin",
+		"type" : "Tool",
+		"health" : null,
+		"requiredLevel" : 3,
+		"engramPoints" : 6,
+		"prerequisites" : [],
+		"unlocks" : [44, "Water Jar"],
+		"imageURL" : "images/Waterskin_(Empty).png",
+		"imageHeight" : 256,
+		"imageWidth" : 256,
+		"imageX" : 0,
+		"imageY" : 0,
+		"image" : null
 	}
 ]

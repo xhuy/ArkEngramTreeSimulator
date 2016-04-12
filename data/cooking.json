@@ -8,10 +8,11 @@
 		"engramPoints" : 3,
 		"prerequisites" : [],
 		"unlocks" : [125,128,360,"Stone Fireplace"],
-		"image" : "images/Campfire.png",
+		"imageURL" : "images/Campfire.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
 		"imageX" : 0,
-		"imageY" : 0
+		"imageY" : 0,
+		"image" : null
 	}
 ]

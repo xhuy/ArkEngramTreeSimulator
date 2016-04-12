@@ -8,11 +8,13 @@
 		"engramPoints" : 3,
 		"prerequisites" : [],
 		"unlocks" : [22],
-		"image" : "00005-Cloth_Pants.png",
+		"unlocksLines" : null,
+		"imageURL" : "images/Cloth_Pants.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
 		"imageX" : 0,
-		"imageY" : 0
+		"imageY" : 0,
+		"image" : null
 	},
 	{
 		"id" : 18,
@@ -23,10 +25,46 @@
 		"engramPoints" : 3,
 		"prerequisites" : [],
 		"unlocks" : [23],
-		"image" : "00006-Cloth_Shirt.png",
+		"unlocksLines" : null,
+		"imageURL" : "images/Cloth_Shirt.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
 		"imageX" : 0,
-		"imageY" : 0
+		"imageY" : 0,
+		"image" : null
+	},
+	{
+		"id" : 21,
+		"name" : "Cloth Gloves",
+		"type" : "Amor Cloth",
+		"health" : 25,
+		"requiredLevel" : 3,
+		"engramPoints" : 3,
+		"prerequisites" : [],
+		"unlocks" : [26],
+		"unlocksLines" : null,
+		"imageURL" : "images/Cloth_Gloves.png",
+		"imageHeight" : 256,
+		"imageWidth" : 256,
+		"imageX" : 0,
+		"imageY" : 0,
+		"image" : null
+	},
+	{
+		"id" : 20,
+		"name" : "Cloth Boots",
+		"type" : "Amor Cloth",
+		"health" : 25,
+		"requiredLevel" : 3,
+		"engramPoints" : 3,
+		"prerequisites" : [],
+		"unlocks" : [25],
+		"unlocksLines" : null,
+		"imageURL" : "images/Cloth_Boots.png",
+		"imageHeight" : 256,
+		"imageWidth" : 256,
+		"imageX" : 0,
+		"imageY" : 0,
+		"image" : null
 	}
 ]
