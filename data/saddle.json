@@ -1,0 +1,19 @@
+[
+	{
+		"id" : 285,
+		"name" : "Phiomia Saddle",
+		"type" : "saddle",
+		"health" : 50,
+		"requiredLevel" : 5,
+		"engramPoints" : 6,
+		"prerequisites" : [],
+		"unlocks" : [],
+		"unlocksLines" : null,
+		"imageURL" : "images/Phiomia_Saddle.png",
+		"imageHeight" : 256,
+		"imageWidth" : 256,
+		"imageX" : 200,
+		"imageY" : 200,
+		"image" : null
+	}
+]

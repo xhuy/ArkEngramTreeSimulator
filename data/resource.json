@@ -1,0 +1,36 @@
+[
+	{
+		"id" : 108,
+		"name" : "Sparkpowder",
+		"type" : "resource",
+		"health" : null,
+		"requiredLevel" : 5,
+		"engramPoints" : 3,
+		"prerequisites" : [],
+		"unlocks" : [["resource",109],["tool","Smoke Grenade"]],
+		"unlocksLines" : null,
+		"imageURL" : "images/Sparkpowder.png",
+		"imageHeight" : 256,
+		"imageWidth" : 256,
+		"imageX" : 600,
+		"imageY" : 200,
+		"image" : null
+	},
+	{
+		"id" : 123,
+		"name" : "Narcotic",
+		"type" : "resource",
+		"health" : null,
+		"requiredLevel" : 5,
+		"engramPoints" : 6,
+		"prerequisites" : [],
+		"unlocks" : [["ammo",70],["ammo","Tranquilizer Dart"]],
+		"unlocksLines" : null,
+		"imageURL" : "images/Narcotic.png",
+		"imageHeight" : 256,
+		"imageWidth" : 256,
+		"imageX" : 700,
+		"imageY" : 200,
+		"image" : null
+	}
+]

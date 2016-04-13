@@ -1,0 +1,19 @@
+[
+	{
+		"id" : 107,
+		"name" : "Mortar And Pestle",
+		"type" : "crafting",
+		"health" : 1000,
+		"requiredLevel" : 5,
+		"engramPoints" : 6,
+		"prerequisites" : [],
+		"unlocks" : [],
+		"unlocksLines" : null,
+		"imageURL" : "images/Mortar_And_Pestle.png",
+		"imageHeight" : 256,
+		"imageWidth" : 256,
+		"imageX" : 400,
+		"imageY" : 200,
+		"image" : null
+	}
+]

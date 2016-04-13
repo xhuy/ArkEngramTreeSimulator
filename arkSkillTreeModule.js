@@ -1,10 +1,16 @@
 var arkSkillTreeModule = (function() {
 	// private
-	var cookingItems;
-	var toolsItems;
+
+	// JSON Data
 	var armorItems;
+	var cookingItems;
+	var craftingItems;
+	var resourceItems;
+	var saddleItems;
 	var structureItems;
+	var toolsItems;
 	var weaponsItems;
+
 	var canvas;
 	var offsetLines = 25;
 	return {
@@ -16,6 +22,7 @@ var arkSkillTreeModule = (function() {
 						selection : false
 					});
 
+			// Getting informaton from JSON
 			$.ajax({
 				dataType : "json",
 				url : 'data/armor.json',
@@ -37,6 +44,39 @@ var arkSkillTreeModule = (function() {
 				arkSkillTreeModule.drawImages(cookingItems);
 			}).fail(function(jqXHR, textStatus, errorThrown) {
 				alert(textStatus + " in cooking.json");
+			});
+
+			$.ajax({
+				dataType : "json",
+				url : 'data/crafting.json',
+				async : true
+			}).done(function(data, textStatus, jqXHR) {
+				craftingItems = data;
+				arkSkillTreeModule.drawImages(craftingItems);
+			}).fail(function(jqXHR, textStatus, errorThrown) {
+				alert(textStatus + " in crafting.json");
+			});
+
+			$.ajax({
+				dataType : "json",
+				url : 'data/resource.json',
+				async : true
+			}).done(function(data, textStatus, jqXHR) {
+				resourceItems = data;
+				arkSkillTreeModule.drawImages(resourceItems);
+			}).fail(function(jqXHR, textStatus, errorThrown) {
+				alert(textStatus + " in resource.json");
+			});
+
+			$.ajax({
+				dataType : "json",
+				url : 'data/saddle.json',
+				async : true
+			}).done(function(data, textStatus, jqXHR) {
+				saddleItems = data;
+				arkSkillTreeModule.drawImages(saddleItems);
+			}).fail(function(jqXHR, textStatus, errorThrown) {
+				alert(textStatus + " in saddle.json");
 			});
 
 			$.ajax({
@@ -73,13 +113,7 @@ var arkSkillTreeModule = (function() {
 				alert(textStatus + " in weapons.json");
 			});
 
-			// var canvas = new fabric.Canvas('canvasArkEngramTree');
-			// fabric.loadSVGFromURL('http://localhost:8080/Ark/docs/engram_tree.svg',
-			// function(objects, options) {
-			// var obj = fabric.util.groupSVGElements(objects, options);
-			// canvas.add(obj).renderAll();
-			// });
-
+			// When there is an event in the canvas
 			arkSkillTreeModule.canvas.on('object:moving', function(e) {
 				var image = e.target;
 				console
@@ -90,17 +124,42 @@ var arkSkillTreeModule = (function() {
 						image.type, image.id);
 
 				$.each(objectMoving.unlocksLines, function(index, value) {
-					value.set({
+					value[1].set({
 						'x1' : image.left + offsetLines,
 						'y1' : image.top + offsetLines
 					})
 
 				});
+
+				$.each(objectMoving.prerequisites, function(index, value) {
+
+					var beforeNode = arkSkillTreeModule.findByIdOrName(
+							value[0], value[1]);
+
+					if (beforeNode !== undefined) {
+
+						$.each(beforeNode.unlocksLines, function(index, value) {
+							var startNodeId = value[0].split("->")[0];
+							var endNodeId = value[0].split("->")[1];
+
+							if (endNodeId === objectMoving.id.toString())
+
+								value[1].set({
+									'x2' : image.left + offsetLines,
+									'y2' : image.top + offsetLines
+								})
+
+						});
+					}
+
+				});
+
 				arkSkillTreeModule.canvas.renderAll();
 			});
 
 		},
 
+		// Drawing images to the canvas from an array which are the json objects
 		drawImages : function(data) {
 
 			$.each(data, function(index, value) {
@@ -121,6 +180,8 @@ var arkSkillTreeModule = (function() {
 			});
 		},
 
+		// Drawing lines that represent the prerequisites and unlocks of each
+		// item
 		drawLines : function(jsonData) {
 			$.each(jsonData, function(index, father) {
 				$.each(father.unlocks, function(index, sonArray) {
@@ -141,7 +202,8 @@ var arkSkillTreeModule = (function() {
 							selectable : false
 						});
 
-						father.unlocksLines.push(line);
+						father.unlocksLines.push([ father.id + "->" + son.id,
+								line ]);
 
 						arkSkillTreeModule.canvas.add(line);
 					}
@@ -149,9 +211,52 @@ var arkSkillTreeModule = (function() {
 			});
 		},
 
+		// Auxiliar function that finds an object in all the arrays representing
+		// the items, recieves the type of item and id or name of the item to be
+		// searched, returns undefined when there is no match
 		findByIdOrName : function(typeItem, idOrName) {
 
-			if (typeItem === "structures") {
+			if (typeItem === "armor") {
+				var indexFinded = -1;
+				$.each(armorItems, function(index, item) {
+					if (item.id === idOrName || item.name === idOrName) {
+						indexFinded = index;
+					}
+				});
+				return armorItems[indexFinded];
+			} else if (typeItem === "cooking") {
+				var indexFinded = -1;
+				$.each(cookingItems, function(index, item) {
+					if (item.id === idOrName || item.name === idOrName) {
+						indexFinded = index;
+					}
+				});
+				return cookingItems[indexFinded];
+			} else if (typeItem === "crafting") {
+				var indexFinded = -1;
+				$.each(craftingItems, function(index, item) {
+					if (item.id === idOrName || item.name === idOrName) {
+						indexFinded = index;
+					}
+				});
+				return craftingItems[indexFinded];
+			} else if (typeItem === "resource") {
+				var indexFinded = -1;
+				$.each(resourceItems, function(index, item) {
+					if (item.id === idOrName || item.name === idOrName) {
+						indexFinded = index;
+					}
+				});
+				return resourceItems[indexFinded];
+			} else if (typeItem === "saddle") {
+				var indexFinded = -1;
+				$.each(saddleItems, function(index, item) {
+					if (item.id === idOrName || item.name === idOrName) {
+						indexFinded = index;
+					}
+				});
+				return saddleItems[indexFinded];
+			} else if (typeItem === "structures") {
 				var indexFinded = -1;
 				$.each(structureItems, function(index, item) {
 					if (item.id === idOrName || item.name === idOrName) {
@@ -159,6 +264,22 @@ var arkSkillTreeModule = (function() {
 					}
 				});
 				return structureItems[indexFinded];
+			} else if (typeItem === "tools") {
+				var indexFinded = -1;
+				$.each(toolsItems, function(index, item) {
+					if (item.id === idOrName || item.name === idOrName) {
+						indexFinded = index;
+					}
+				});
+				return toolsItems[indexFinded];
+			} else if (typeItem === "weapons") {
+				var indexFinded = -1;
+				$.each(weaponsItems, function(index, item) {
+					if (item.id === idOrName || item.name === idOrName) {
+						indexFinded = index;
+					}
+				});
+				return weaponsItems[indexFinded];
 			}
 		},
 
