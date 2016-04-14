@@ -1,5 +1,39 @@
 [
 	{
+		"id" : 37,
+		"name" : "Torch",
+		"type" : "tools",
+		"health" : 40,
+		"requiredLevel" : 1,
+		"engramPoints" : 0,
+		"prerequisites" : [],
+		"unlocks" : [],
+		"unlocksLines" : [],
+		"imageURL" : "images/Torch.png",
+		"imageHeight" : 256,
+		"imageWidth" : 256,
+		"imageX" : 546,
+		"imageY" : 21,
+		"image" : null
+	},
+	{
+		"id" : 33,
+		"name" : "Stone Pick",
+		"type" : "tools",
+		"health" : 40,
+		"requiredLevel" : 1,
+		"engramPoints" : 0,
+		"prerequisites" : [],
+		"unlocks" : [],
+		"unlocksLines" : [],
+		"imageURL" : "images/Stone_Pick.png",
+		"imageHeight" : 256,
+		"imageWidth" : 256,
+		"imageX" : 368,
+		"imageY" : 201,
+		"image" : null
+	},
+	{
 		"id" : 34,
 		"name" : "Stone Hatchet",
 		"type" : "tools",
@@ -12,8 +46,8 @@
 		"imageURL" : "images/Stone_Hatchet.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 0,
-		"imageY" : 0,
+		"imageX" : 418,
+		"imageY" : 210,
 		"image" : null
 	},
 	{
@@ -29,8 +63,8 @@
 		"imageURL" : "images/Note.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 0,
-		"imageY" : 0,
+		"imageX" : 481,
+		"imageY" : 21,
 		"image" : null
 	},
 	{
@@ -46,8 +80,8 @@
 		"imageURL" : "images/Waterskin_(Empty).png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 0,
-		"imageY" : 0,
+		"imageX" : 472,
+		"imageY" : 213,
 		"image" : null
 	},
 	{
@@ -63,8 +97,8 @@
 		"imageURL" : "images/Blood_Extraction_Syringe.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 600,
-		"imageY" : 400,
+		"imageX" : 531,
+		"imageY" : 156,
 		"image" : null
 	},
 	{
@@ -80,8 +114,42 @@
 		"imageURL" : "images/Paintbrush.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 600,
-		"imageY" : 400,
+		"imageX" : 595,
+		"imageY" : 218,
+		"image" : null
+	},
+	{
+		"id" : 137,
+		"name" : "Compass",
+		"type" : "tools",
+		"health" : null,
+		"requiredLevel" : 10,
+		"engramPoints" : 5,
+		"prerequisites" : [],
+		"unlocks" : [["tools", 72]],
+		"unlocksLines" : [],
+		"imageURL" : "images/Compass.png",
+		"imageHeight" : 256,
+		"imageWidth" : 256,
+		"imageX" : 675,
+		"imageY" : 209,
+		"image" : null
+	},
+	{
+		"id" : 283,
+		"name" : "Spyglass",
+		"type" : "tools",
+		"health" : null,
+		"requiredLevel" : 10,
+		"engramPoints" : 2,
+		"prerequisites" : [],
+		"unlocks" : [["weapons", 138]],
+		"unlocksLines" : [],
+		"imageURL" : "images/Spyglass.png",
+		"imageHeight" : 256,
+		"imageWidth" : 256,
+		"imageX" : 271,
+		"imageY" : 32,
 		"image" : null
 	}
 ]

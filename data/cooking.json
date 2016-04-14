@@ -8,12 +8,29 @@
 		"engramPoints" : 3,
 		"prerequisites" : [],
 		"unlocks" : [["crafting",125],["cooking",128],["cooking",360],["structures","Stone Fireplace"]],
-		"unlocksLines" : null,
+		"unlocksLines" : [],
 		"imageURL" : "images/Campfire.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 0,
-		"imageY" : 0,
+		"imageX" : 891,
+		"imageY" : 100,
+		"image" : null
+	},
+	{
+		"id" : 128,
+		"name" : "Cooking Pot",
+		"type" : "cooking",
+		"health" : 500,
+		"requiredLevel" : 10,
+		"engramPoints" : 9,
+		"prerequisites" : [["cooking", 39]],
+		"unlocks" : [["cooking","Industrial Cooker"]],
+		"unlocksLines" : [],
+		"imageURL" : "images/Cooking_Pot.png",
+		"imageHeight" : 256,
+		"imageWidth" : 256,
+		"imageX" : 891,
+		"imageY" : 150,
 		"image" : null
 	}
 ]

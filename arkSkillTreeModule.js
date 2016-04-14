@@ -30,7 +30,7 @@ var arkSkillTreeModule = (function() {
 			}).done(function(data, textStatus, jqXHR) {
 				armorItems = data;
 				arkSkillTreeModule.drawImages(armorItems);
-				// arkSkillTreeModule.drawLines(armorItems);
+				arkSkillTreeModule.drawLines(armorItems);
 			}).fail(function(jqXHR, textStatus, errorThrown) {
 				alert(textStatus + " in armor.json");
 			});
@@ -42,6 +42,7 @@ var arkSkillTreeModule = (function() {
 			}).done(function(data, textStatus, jqXHR) {
 				cookingItems = data;
 				arkSkillTreeModule.drawImages(cookingItems);
+				arkSkillTreeModule.drawLines(cookingItems);
 			}).fail(function(jqXHR, textStatus, errorThrown) {
 				alert(textStatus + " in cooking.json");
 			});
@@ -53,6 +54,7 @@ var arkSkillTreeModule = (function() {
 			}).done(function(data, textStatus, jqXHR) {
 				craftingItems = data;
 				arkSkillTreeModule.drawImages(craftingItems);
+				arkSkillTreeModule.drawLines(craftingItems);
 			}).fail(function(jqXHR, textStatus, errorThrown) {
 				alert(textStatus + " in crafting.json");
 			});
@@ -64,6 +66,7 @@ var arkSkillTreeModule = (function() {
 			}).done(function(data, textStatus, jqXHR) {
 				resourceItems = data;
 				arkSkillTreeModule.drawImages(resourceItems);
+				arkSkillTreeModule.drawLines(resourceItems)
 			}).fail(function(jqXHR, textStatus, errorThrown) {
 				alert(textStatus + " in resource.json");
 			});
@@ -98,6 +101,7 @@ var arkSkillTreeModule = (function() {
 			}).done(function(data, textStatus, jqXHR) {
 				toolsItems = data;
 				arkSkillTreeModule.drawImages(toolsItems);
+				arkSkillTreeModule.drawLines(toolsItems);
 			}).fail(function(jqXHR, textStatus, errorThrown) {
 				alert(textStatus + " in tools.json");
 			});
@@ -109,6 +113,7 @@ var arkSkillTreeModule = (function() {
 			}).done(function(data, textStatus, jqXHR) {
 				weaponsItems = data;
 				arkSkillTreeModule.drawImages(weaponsItems);
+				arkSkillTreeModule.drawLines(weaponsItems);
 			}).fail(function(jqXHR, textStatus, errorThrown) {
 				alert(textStatus + " in weapons.json");
 			});
@@ -116,9 +121,8 @@ var arkSkillTreeModule = (function() {
 			// When there is an event in the canvas
 			arkSkillTreeModule.canvas.on('object:moving', function(e) {
 				var image = e.target;
-				console
-						.log("Element ID: " + image.id + ", Type: "
-								+ image.type);
+				console.log("Element ID: " + image.id + ", Type: " + image.type
+						+ "X:" + image.left + ",Y:" + image.top);
 
 				var objectMoving = arkSkillTreeModule.findByIdOrName(
 						image.type, image.id);
@@ -155,6 +159,14 @@ var arkSkillTreeModule = (function() {
 				});
 
 				arkSkillTreeModule.canvas.renderAll();
+			});
+
+			arkSkillTreeModule.canvas.observe('mouse:over', function(e) {
+				// console.log("Everyday I'm hovering");
+				// arkSkillTreeModule.showImageTools(e.target);
+			});
+			arkSkillTreeModule.canvas.observe('mouse:out', function(e) {
+				$('#imageDialog').remove();
 			});
 
 		},
@@ -223,7 +235,10 @@ var arkSkillTreeModule = (function() {
 						indexFinded = index;
 					}
 				});
-				return armorItems[indexFinded];
+				if (indexFinded === -1)
+					return undefined;
+				else
+					return armorItems[indexFinded];
 			} else if (typeItem === "cooking") {
 				var indexFinded = -1;
 				$.each(cookingItems, function(index, item) {
@@ -231,7 +246,10 @@ var arkSkillTreeModule = (function() {
 						indexFinded = index;
 					}
 				});
-				return cookingItems[indexFinded];
+				if (indexFinded === -1)
+					return undefined;
+				else
+					return cookingItems[indexFinded];
 			} else if (typeItem === "crafting") {
 				var indexFinded = -1;
 				$.each(craftingItems, function(index, item) {
@@ -239,7 +257,10 @@ var arkSkillTreeModule = (function() {
 						indexFinded = index;
 					}
 				});
-				return craftingItems[indexFinded];
+				if (indexFinded === -1)
+					return undefined;
+				else
+					return craftingItems[indexFinded];
 			} else if (typeItem === "resource") {
 				var indexFinded = -1;
 				$.each(resourceItems, function(index, item) {
@@ -247,7 +268,10 @@ var arkSkillTreeModule = (function() {
 						indexFinded = index;
 					}
 				});
-				return resourceItems[indexFinded];
+				if (indexFinded === -1)
+					return undefined;
+				else
+					return resourceItems[indexFinded];
 			} else if (typeItem === "saddle") {
 				var indexFinded = -1;
 				$.each(saddleItems, function(index, item) {
@@ -255,7 +279,10 @@ var arkSkillTreeModule = (function() {
 						indexFinded = index;
 					}
 				});
-				return saddleItems[indexFinded];
+				if (indexFinded === -1)
+					return undefined;
+				else
+					return saddleItems[indexFinded];
 			} else if (typeItem === "structures") {
 				var indexFinded = -1;
 				$.each(structureItems, function(index, item) {
@@ -263,7 +290,10 @@ var arkSkillTreeModule = (function() {
 						indexFinded = index;
 					}
 				});
-				return structureItems[indexFinded];
+				if (indexFinded === -1)
+					return undefined;
+				else
+					return structureItems[indexFinded];
 			} else if (typeItem === "tools") {
 				var indexFinded = -1;
 				$.each(toolsItems, function(index, item) {
@@ -271,7 +301,10 @@ var arkSkillTreeModule = (function() {
 						indexFinded = index;
 					}
 				});
-				return toolsItems[indexFinded];
+				if (indexFinded === -1)
+					return undefined;
+				else
+					return toolsItems[indexFinded];
 			} else if (typeItem === "weapons") {
 				var indexFinded = -1;
 				$.each(weaponsItems, function(index, item) {
@@ -279,8 +312,59 @@ var arkSkillTreeModule = (function() {
 						indexFinded = index;
 					}
 				});
-				return weaponsItems[indexFinded];
+				if (indexFinded === -1)
+					return undefined;
+				else
+					return weaponsItems[indexFinded];
 			}
+		},
+
+		showImageTools : function(e) {
+			if (!$('#imageDialog').length) {
+				$('body')
+						.append(
+								"<div id='imageDialog' style='position: absolute; top: 0; left: 0'><h1>Hello</h1></div>");
+			}
+
+			arkSkillTreeModule.moveImageTools(e);
+
+		},
+
+		moveImageTools : function(e) {
+
+			var w = $('#imageDialog').width();
+			var h = $('#imageDialog').height();
+			// var e = canvas.getActiveObject();
+			// var e = canvas._setCursorFromEvent();
+			var coords = arkSkillTreeModule.getObjPosition(e);
+			// console.log('coords', coords);
+			// -1 because we want to be inside the selection body
+			var top = coords.bottom - h - 1;
+			var left = coords.right - w - 1;
+			$('#imageDialog').show();
+			$('#imageDialog').css({
+				top : top,
+				left : left
+			});
+		},
+
+		getObjPosition : function(e) {
+			// Get dimensions of object
+			var rect = e.getBoundingRect();
+			// We have the bounding box for rect... Now to get the canvas
+			// position
+			var offset = arkSkillTreeModule.canvas.calcOffset();
+			// Do the math - offset is from $(body)
+			var bottom = offset._offset.top + rect.top + rect.height;
+			var right = offset._offset.left + rect.left + rect.width;
+			var left = offset._offset.left + rect.left;
+			var top = offset._offset.top + rect.top;
+			return {
+				left : left,
+				top : top,
+				right : right,
+				bottom : bottom
+			};
 		},
 
 		getCookingItems : function() {

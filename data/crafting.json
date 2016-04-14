@@ -8,12 +8,12 @@
 		"engramPoints" : 6,
 		"prerequisites" : [],
 		"unlocks" : [],
-		"unlocksLines" : null,
+		"unlocksLines" : [],
 		"imageURL" : "images/Mortar_And_Pestle.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 400,
-		"imageY" : 200,
+		"imageX" : 679,
+		"imageY" : 286,
 		"image" : null
 	}
 ]
