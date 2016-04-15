@@ -29,8 +29,7 @@ var arkSkillTreeModule = (function() {
 				async : true
 			}).done(function(data, textStatus, jqXHR) {
 				armorItems = data;
-				arkSkillTreeModule.drawImages(armorItems);
-				arkSkillTreeModule.drawLines(armorItems);
+				arkSkillTreeModule.checkData();
 			}).fail(function(jqXHR, textStatus, errorThrown) {
 				alert(textStatus + " in armor.json");
 			});
@@ -41,8 +40,7 @@ var arkSkillTreeModule = (function() {
 				async : true
 			}).done(function(data, textStatus, jqXHR) {
 				cookingItems = data;
-				arkSkillTreeModule.drawImages(cookingItems);
-				arkSkillTreeModule.drawLines(cookingItems);
+				arkSkillTreeModule.checkData();
 			}).fail(function(jqXHR, textStatus, errorThrown) {
 				alert(textStatus + " in cooking.json");
 			});
@@ -53,8 +51,7 @@ var arkSkillTreeModule = (function() {
 				async : true
 			}).done(function(data, textStatus, jqXHR) {
 				craftingItems = data;
-				arkSkillTreeModule.drawImages(craftingItems);
-				arkSkillTreeModule.drawLines(craftingItems);
+				arkSkillTreeModule.checkData();
 			}).fail(function(jqXHR, textStatus, errorThrown) {
 				alert(textStatus + " in crafting.json");
 			});
@@ -65,8 +62,7 @@ var arkSkillTreeModule = (function() {
 				async : true
 			}).done(function(data, textStatus, jqXHR) {
 				resourceItems = data;
-				arkSkillTreeModule.drawImages(resourceItems);
-				arkSkillTreeModule.drawLines(resourceItems)
+				arkSkillTreeModule.checkData();
 			}).fail(function(jqXHR, textStatus, errorThrown) {
 				alert(textStatus + " in resource.json");
 			});
@@ -77,7 +73,7 @@ var arkSkillTreeModule = (function() {
 				async : true
 			}).done(function(data, textStatus, jqXHR) {
 				saddleItems = data;
-				arkSkillTreeModule.drawImages(saddleItems);
+				arkSkillTreeModule.checkData();
 			}).fail(function(jqXHR, textStatus, errorThrown) {
 				alert(textStatus + " in saddle.json");
 			});
@@ -88,8 +84,7 @@ var arkSkillTreeModule = (function() {
 				async : true
 			}).done(function(data, textStatus, jqXHR) {
 				structureItems = data;
-				arkSkillTreeModule.drawImages(structureItems);
-				arkSkillTreeModule.drawLines(structureItems);
+				arkSkillTreeModule.checkData();
 			}).fail(function(jqXHR, textStatus, errorThrown) {
 				alert(textStatus + " in structures.json");
 			});
@@ -100,8 +95,7 @@ var arkSkillTreeModule = (function() {
 				async : true
 			}).done(function(data, textStatus, jqXHR) {
 				toolsItems = data;
-				arkSkillTreeModule.drawImages(toolsItems);
-				arkSkillTreeModule.drawLines(toolsItems);
+				arkSkillTreeModule.checkData();
 			}).fail(function(jqXHR, textStatus, errorThrown) {
 				alert(textStatus + " in tools.json");
 			});
@@ -112,8 +106,7 @@ var arkSkillTreeModule = (function() {
 				async : true
 			}).done(function(data, textStatus, jqXHR) {
 				weaponsItems = data;
-				arkSkillTreeModule.drawImages(weaponsItems);
-				arkSkillTreeModule.drawLines(weaponsItems);
+				arkSkillTreeModule.checkData();
 			}).fail(function(jqXHR, textStatus, errorThrown) {
 				alert(textStatus + " in weapons.json");
 			});
@@ -365,6 +358,35 @@ var arkSkillTreeModule = (function() {
 				right : right,
 				bottom : bottom
 			};
+		},
+
+		checkData : function() {
+			if (armorItems !== undefined
+					&& cookingItems !== undefined
+					&& craftingItems !== undefined
+					&& resourceItems !== undefined
+					&& saddleItems !== undefined
+					&& structureItems !== undefined
+					&& toolsItems !== undefined
+					&& weaponsItems !== undefined) {
+				arkSkillTreeModule.drawImages(armorItems);
+				arkSkillTreeModule.drawImages(craftingItems);
+				arkSkillTreeModule.drawImages(cookingItems);
+				arkSkillTreeModule.drawImages(resourceItems);
+				arkSkillTreeModule.drawImages(structureItems);
+				arkSkillTreeModule.drawImages(toolsItems);
+				arkSkillTreeModule.drawImages(weaponsItems);
+				arkSkillTreeModule.drawImages(saddleItems);
+
+				arkSkillTreeModule.drawLines(armorItems);
+				arkSkillTreeModule.drawLines(craftingItems);
+				arkSkillTreeModule.drawLines(cookingItems);
+				arkSkillTreeModule.drawLines(resourceItems);
+				arkSkillTreeModule.drawLines(structureItems);
+				arkSkillTreeModule.drawLines(toolsItems);
+				arkSkillTreeModule.drawLines(weaponsItems);
+			}
+
 		},
 
 		getCookingItems : function() {

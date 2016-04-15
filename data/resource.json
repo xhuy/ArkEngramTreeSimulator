@@ -29,8 +29,8 @@
 		"imageURL" : "images/Narcotic.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 280,
-		"imageY" : 400,
+		"imageX" : 279,
+		"imageY" : 398,
 		"image" : null
 	},
 	{
@@ -41,7 +41,7 @@
 		"requiredLevel" : 10,
 		"engramPoints" : 3,
 		"prerequisites" : [],
-		"unlocks" : [["structure","Water Reservoir"]],
+		"unlocks" : [["structures",6008]],
 		"unlocksLines" : [],
 		"imageURL" : "images/Cementing_Paste.png",
 		"imageHeight" : 256,
@@ -82,6 +82,23 @@
 		"imageWidth" : 256,
 		"imageX" : 276,
 		"imageY" : 296,
+		"image" : null
+	},
+	{
+		"id" : 4001,
+		"name" : "Bug Repellant",
+		"type" : "resource",
+		"health" : null,
+		"requiredLevel" : 12,
+		"engramPoints" : 1,
+		"prerequisites" : [],
+		"unlocks" : [],
+		"unlocksLines" : [],
+		"imageURL" : "images/Bug_Repellant.png",
+		"imageHeight" : 256,
+		"imageWidth" : 256,
+		"imageX" : 278,
+		"imageY" : 348,
 		"image" : null
 	}
 ]

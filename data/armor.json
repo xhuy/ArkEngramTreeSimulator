@@ -12,8 +12,8 @@
 		"imageURL" : "images/Cloth_Pants.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 0,
-		"imageY" : 0,
+		"imageX" : 817,
+		"imageY" : 263,
 		"image" : null
 	},
 	{
@@ -29,8 +29,8 @@
 		"imageURL" : "images/Cloth_Shirt.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,	
-		"imageX" : 0,
-		"imageY" : 0,
+		"imageX" : 821,
+		"imageY" : 192,
 		"image" : null
 	},
 	{
@@ -46,8 +46,8 @@
 		"imageURL" : "images/Cloth_Gloves.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 0,
-		"imageY" : 0,
+		"imageX" : 815,
+		"imageY" : 107,
 		"image" : null
 	},
 	{
@@ -63,8 +63,8 @@
 		"imageURL" : "images/Cloth_Boots.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 0,
-		"imageY" : 0,
+		"imageX" : 813,
+		"imageY" : 328,
 		"image" : null
 	},
 	{
@@ -80,8 +80,8 @@
 		"imageURL" : "images/Cloth_Hat.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 0,
-		"imageY" : 0,
+		"imageX" : 812,
+		"imageY" : 29,
 		"image" : null
 	},
 	{
@@ -99,6 +99,91 @@
 		"imageWidth" : 256,
 		"imageX" : 0,
 		"imageY" : 0,
+		"image" : null
+	},
+	{
+		"id" : 22,
+		"name" : "Hide Pants",
+		"type" : "armor",
+		"health" : 45,
+		"requiredLevel" : 15,
+		"engramPoints" : 9,
+		"prerequisites" : [["armor",17]],
+		"unlocks" : [["armor",27],["armor",429],["armor","Ghillie Leggings"],["armor","SCUBA Leggings"]],
+		"unlocksLines" : [],
+		"imageURL" : "images/Hide_Pants.png",
+		"imageHeight" : 256,
+		"imageWidth" : 256,
+		"imageX" : 920,
+		"imageY" : 261,
+		"image" : null
+	},
+	{
+		"id" : 23,
+		"name" : "Hide Shirt",
+		"type" : "armor",
+		"health" : 45,
+		"requiredLevel" : 15,
+		"engramPoints" : 6,
+		"prerequisites" : [["armor",18]],
+		"unlocks" : [["armor",28],["armor",430],["armor","Ghillie Chestpiece"],["armor",387]],
+		"unlocksLines" : [],
+		"imageURL" : "images/Hide_Shirt.png",
+		"imageHeight" : 256,
+		"imageWidth" : 256,
+		"imageX" : 907,
+		"imageY" : 191,
+		"image" : null
+	},
+	{
+		"id" : 26,
+		"name" : "Hide Gloves",
+		"type" : "armor",
+		"health" : 45,
+		"requiredLevel" : 20,
+		"engramPoints" : 7,
+		"prerequisites" : [["armor",21]],
+		"unlocks" : [["armor",31],["armor",433],["armor","Ghillie Gauntlets"]],
+		"unlocksLines" : [],
+		"imageURL" : "images/Hide_Gloves.png",
+		"imageHeight" : 256,
+		"imageWidth" : 256,
+		"imageX" : 907,
+		"imageY" : 191,
+		"image" : null
+	},
+	{
+		"id" : 25,
+		"name" : "Hide Boots",
+		"type" : "armor",
+		"health" : 45,
+		"requiredLevel" : 15,
+		"engramPoints" : 7,
+		"prerequisites" : [["armor",20]],
+		"unlocks" : [["armor",30],["armor",432],["armor","Ghillie Boots"],["armor",389]],
+		"unlocksLines" : [],
+		"imageURL" : "images/Hide_Boots.png",
+		"imageHeight" : 256,
+		"imageWidth" : 256,
+		"imageX" : 907,
+		"imageY" : 191,
+		"image" : null
+	},
+	{
+		"id" : 24,
+		"name" : "Hide Hat",
+		"type" : "armor",
+		"health" : 45,
+		"requiredLevel" : 15,
+		"engramPoints" : 9,
+		"prerequisites" : [["armor",19]],
+		"unlocks" : [["armor",29],["armor",431],["armor","Ghillie Mask"],["armor",388]],
+		"unlocksLines" : [],
+		"imageURL" : "images/Hide_Hat.png",
+		"imageHeight" : 256,
+		"imageWidth" : 256,
+		"imageX" : 907,
+		"imageY" : 191,
 		"image" : null
 	}
 ]

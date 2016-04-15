@@ -49,5 +49,57 @@
 		"imageX" : 935,
 		"imageY" : 606,
 		"image" : null
+	},
+	{
+		"id" : 417,
+		"name" : "Pachy Saddle",
+		"type" : "saddle",
+		"health" : 50,
+		"requiredLevel" : 15,
+		"engramPoints" : 9,
+		"prerequisites" : [],
+		"unlocks" : [],
+		"unlocksLines" : [],
+		"imageURL" : "images/Pachy_Saddle.png",
+		"imageHeight" : 256,
+		"imageWidth" : 256,
+		"imageX" : 985,
+		"imageY" : 606,
+		"image" : null
+	},
+	{
+		"id" : 101,
+		"name" : "Raptor Saddle",
+		"type" : "saddle",
+		"health" : 50,
+		"requiredLevel" : 15,
+		"engramPoints" : 9,
+		"prerequisites" : [],
+		"unlocks" : [],
+		"unlocksLines" : [],
+		"imageURL" : "images/Raptor_Saddle.png",
+		"imageHeight" : 256,
+		"imageWidth" : 256,
+		"imageX" : 1035,
+		"imageY" : 606,
+		"image" : null
+	}
+	,
+	{
+		"id" : 101,
+		"name" : "Trike Saddle",
+		"type" : "saddle",
+		"health" : 50,
+		"requiredLevel" : 20,
+		"engramPoints" : 12,
+		"prerequisites" : [],
+		"unlocks" : [],
+		"unlocksLines" : [],
+		"imageURL" : "images/Trike_Saddle.png",
+		"imageHeight" : 256,
+		"imageWidth" : 256,
+		"imageX" : 813,
+		"imageY" : 656,
+		"image" : null
 	}
 ]

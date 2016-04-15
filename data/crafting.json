@@ -12,8 +12,25 @@
 		"imageURL" : "images/Mortar_And_Pestle.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 679,
+		"imageX" : 591,
 		"imageY" : 286,
+		"image" : null
+	},
+	{
+		"id" : 125,
+		"name" : "Refining Forge",
+		"type" : "crafting",
+		"health" : 2500,
+		"requiredLevel" : 20,
+		"engramPoints" : 21,
+		"prerequisites" : [["cooking",39]],
+		"unlocks" : [["crafting", "Industrial Forge"]],
+		"unlocksLines" : [],
+		"imageURL" : "images/Refining_Forge.png",
+		"imageHeight" : 256,
+		"imageWidth" : 256,
+		"imageX" : 0,
+		"imageY" : 0,
 		"image" : null
 	}
 ]

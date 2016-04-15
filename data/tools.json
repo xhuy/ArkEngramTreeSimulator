@@ -151,5 +151,39 @@
 		"imageX" : 271,
 		"imageY" : 32,
 		"image" : null
+	},
+	{
+		"id" : 187,
+		"name" : "Parachute",
+		"type" : "tools",
+		"health" : 0,
+		"requiredLevel" : 15,
+		"engramPoints" : 6,
+		"prerequisites" : [],
+		"unlocks" : [],
+		"unlocksLines" : [],
+		"imageURL" : "images/Parachute.png",
+		"imageHeight" : 256,
+		"imageWidth" : 256,
+		"imageX" : 591,
+		"imageY" : 89,
+		"image" : null
+	},
+	{
+		"id" : 7003,
+		"name" : "Magnifying Glass",
+		"type" : "tools",
+		"health" : 0,
+		"requiredLevel" : 15,
+		"engramPoints" : 16,
+		"prerequisites" : [],
+		"unlocks" : [],
+		"unlocksLines" : [],
+		"imageURL" : "images/Magnifying_Glass.png",
+		"imageHeight" : 256,
+		"imageWidth" : 256,
+		"imageX" : 591,
+		"imageY" : 89,
+		"image" : null
 	}
 ]
