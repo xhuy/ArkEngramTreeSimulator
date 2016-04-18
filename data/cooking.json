@@ -12,8 +12,8 @@
 		"imageURL" : "images/Campfire.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 891,
-		"imageY" : 100,
+		"imageX" : 173,
+		"imageY" : 655,
 		"image" : null
 	},
 	{
@@ -29,8 +29,8 @@
 		"imageURL" : "images/Cooking_Pot.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 891,
-		"imageY" : 150,
+		"imageX" : 88,
+		"imageY" : 715,
 		"image" : null
 	}
 ]

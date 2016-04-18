@@ -29,8 +29,25 @@
 		"imageURL" : "images/Refining_Forge.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 0,
-		"imageY" : 0,
+		"imageX" : 149,
+		"imageY" : 176,
+		"image" : null
+	},
+	{
+		"id" : 126,
+		"name" : "Smithy",
+		"type" : "crafting",
+		"health" : 1500,
+		"requiredLevel" : 25,
+		"engramPoints" : 16,
+		"prerequisites" : [],
+		"unlocks" : [["crafting", 383],["crafting", "Castoroides Saddle"],["crafting", 185]],
+		"unlocksLines" : [],
+		"imageURL" : "images/Smithy.png",
+		"imageHeight" : 256,
+		"imageWidth" : 256,
+		"imageX" : 156,
+		"imageY" : 718,
 		"image" : null
 	}
 ]

@@ -7,7 +7,7 @@
 		"requiredLevel" : 5,
 		"engramPoints" : 3,
 		"prerequisites" : [],
-		"unlocks" : [["resource",109],["tool","Smoke Grenade"]],
+		"unlocks" : [["resource",109],["weapons",8001]],
 		"unlocksLines" : [],
 		"imageURL" : "images/Sparkpowder.png",
 		"imageHeight" : 256,

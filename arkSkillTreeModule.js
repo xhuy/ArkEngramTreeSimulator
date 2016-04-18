@@ -19,7 +19,7 @@ var arkSkillTreeModule = (function() {
 
 			arkSkillTreeModule.canvas = new fabric.Canvas(
 					'canvasArkEngramTree', {
-						selection : false
+						selection : true
 					});
 
 			// Getting informaton from JSON
@@ -207,10 +207,25 @@ var arkSkillTreeModule = (function() {
 							selectable : false
 						});
 
+						line.setGradient('fill', {
+						    type: 'radial',
+						    r1: line.width / 2,
+						    r2: 10,
+						    x1: 0,
+						    y1: 0,
+						    x2: 0,
+						    y2: 0,
+						    colorStops: {
+						        0: '#FF4F4F',
+						        1: 'rgb(255, 239, 64)'
+						    }
+						});
+						
 						father.unlocksLines.push([ father.id + "->" + son.id,
 								line ]);
 
 						arkSkillTreeModule.canvas.add(line);
+						arkSkillTreeModule.canvas.renderAll();
 					}
 				});
 			});

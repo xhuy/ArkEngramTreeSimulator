@@ -12,8 +12,8 @@
 		"imageURL" : "images/Cloth_Pants.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 817,
-		"imageY" : 263,
+		"imageX" : 811,
+		"imageY" : 416,
 		"image" : null
 	},
 	{
@@ -29,8 +29,8 @@
 		"imageURL" : "images/Cloth_Shirt.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,	
-		"imageX" : 821,
-		"imageY" : 192,
+		"imageX" : 815,
+		"imageY" : 286,
 		"image" : null
 	},
 	{
@@ -46,8 +46,8 @@
 		"imageURL" : "images/Cloth_Gloves.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 815,
-		"imageY" : 107,
+		"imageX" : 810,
+		"imageY" : 132,
 		"image" : null
 	},
 	{
@@ -63,8 +63,8 @@
 		"imageURL" : "images/Cloth_Boots.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 813,
-		"imageY" : 328,
+		"imageX" : 807,
+		"imageY" : 522,
 		"image" : null
 	},
 	{
@@ -80,8 +80,8 @@
 		"imageURL" : "images/Cloth_Hat.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 812,
-		"imageY" : 29,
+		"imageX" : 810,
+		"imageY" : 25,
 		"image" : null
 	},
 	{
@@ -114,8 +114,8 @@
 		"imageURL" : "images/Hide_Pants.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 920,
-		"imageY" : 261,
+		"imageX" : 855,
+		"imageY" : 415,
 		"image" : null
 	},
 	{
@@ -131,8 +131,8 @@
 		"imageURL" : "images/Hide_Shirt.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 907,
-		"imageY" : 191,
+		"imageX" : 864,
+		"imageY" : 283,
 		"image" : null
 	},
 	{
@@ -148,8 +148,8 @@
 		"imageURL" : "images/Hide_Gloves.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 907,
-		"imageY" : 191,
+		"imageX" : 862,
+		"imageY" : 133,
 		"image" : null
 	},
 	{
@@ -165,8 +165,8 @@
 		"imageURL" : "images/Hide_Boots.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 907,
-		"imageY" : 191,
+		"imageX" : 867,
+		"imageY" : 524,
 		"image" : null
 	},
 	{
@@ -182,8 +182,93 @@
 		"imageURL" : "images/Hide_Hat.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
+		"imageX" : 862,
+		"imageY" : 27,
+		"image" : null
+	},
+	{
+		"id" : 432,
+		"name" : "Fur Boots",
+		"type" : "armor",
+		"health" : 120,
+		"requiredLevel" : 25,
+		"engramPoints" : 12,
+		"prerequisites" : [["armor",25]],
+		"unlocks" : [],
+		"unlocksLines" : [],
+		"imageURL" : "images/Fur_Boots.png",
+		"imageHeight" : 256,
+		"imageWidth" : 256,
+		"imageX" : 921,
+		"imageY" : 520,
+		"image" : null
+	},
+	{
+		"id" : 433,
+		"name" : "Fur Gauntlets",
+		"type" : "armor",
+		"health" : 120,
+		"requiredLevel" : 25,
+		"engramPoints" : 12,
+		"prerequisites" : [["armor",26]],
+		"unlocks" : [],
+		"unlocksLines" : [],
+		"imageURL" : "images/Fur_Gauntlets.png",
+		"imageHeight" : 256,
+		"imageWidth" : 256,
 		"imageX" : 907,
-		"imageY" : 191,
+		"imageY" : 133,
+		"image" : null
+	},
+	{
+		"id" : 431,
+		"name" : "Fur Cap",
+		"type" : "armor",
+		"health" : 120,
+		"requiredLevel" : 25,
+		"engramPoints" : 14,
+		"prerequisites" : [["armor",24]],
+		"unlocks" : [],
+		"unlocksLines" : [],
+		"imageURL" : "images/Fur_Cap.png",
+		"imageHeight" : 256,
+		"imageWidth" : 256,
+		"imageX" : 907,
+		"imageY" : 28,
+		"image" : null
+	},
+	{
+		"id" : 429,
+		"name" : "Fur Leggings",
+		"type" : "armor",
+		"health" : 120,
+		"requiredLevel" : 25,
+		"engramPoints" : 16,
+		"prerequisites" : [["armor",22]],
+		"unlocks" : [],
+		"unlocksLines" : [],
+		"imageURL" : "images/Fur_Leggings.png",
+		"imageHeight" : 256,
+		"imageWidth" : 256,
+		"imageX" : 897,
+		"imageY" : 413,
+		"image" : null
+	},
+	{
+		"id" : 430,
+		"name" : "Fur Chestpiece",
+		"type" : "armor",
+		"health" : 120,
+		"requiredLevel" : 30,
+		"engramPoints" : 16,
+		"prerequisites" : [["armor",23]],
+		"unlocks" : [],
+		"unlocksLines" : [],
+		"imageURL" : "images/Fur_Chestpiece.png",
+		"imageHeight" : 256,
+		"imageWidth" : 256,
+		"imageX" : 920,
+		"imageY" : 281,
 		"image" : null
 	}
 ]
