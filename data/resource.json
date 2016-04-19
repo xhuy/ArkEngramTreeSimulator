@@ -29,8 +29,8 @@
 		"imageURL" : "images/Narcotic.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 279,
-		"imageY" : 398,
+		"imageX" : 644,
+		"imageY" : 294,
 		"image" : null
 	},
 	{
@@ -80,7 +80,7 @@
 		"imageURL" : "images/Gunpowder.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 276,
+		"imageX" : 306,
 		"imageY" : 296,
 		"image" : null
 	},
@@ -97,8 +97,25 @@
 		"imageURL" : "images/Bug_Repellant.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 278,
-		"imageY" : 348,
+		"imageX" : 587,
+		"imageY" : 295,
+		"image" : null
+	},
+	{
+		"id" : 386,
+		"name" : "Re-Fertilizer",
+		"type" : "resource",
+		"health" : 1,
+		"requiredLevel" : 35,
+		"engramPoints" : 20,
+		"prerequisites" : [],
+		"unlocks" : [],
+		"unlocksLines" : [],
+		"imageURL" : "images/Re-Fertilizer.png",
+		"imageHeight" : 256,
+		"imageWidth" : 256,
+		"imageX" : 532,
+		"imageY" : 296,
 		"image" : null
 	}
 ]

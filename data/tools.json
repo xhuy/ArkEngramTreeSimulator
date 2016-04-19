@@ -119,6 +119,23 @@
 		"image" : null
 	},
 	{
+		"id" : 184,
+		"name" : "Flare Gun",
+		"type" : "tools",
+		"health" : null,
+		"requiredLevel" : 10,
+		"engramPoints" : 6,
+		"prerequisites" : [["resource", 109]],
+		"unlocks" : [["weapons", 1],["weapons", 132],["weapons", 267]],
+		"unlocksLines" : [],
+		"imageURL" : "images/Flare_Gun.png",
+		"imageHeight" : 256,
+		"imageWidth" : 256,
+		"imageX" : 276,
+		"imageY" : 210,
+		"image" : null
+	},
+	{
 		"id" : 137,
 		"name" : "Compass",
 		"type" : "tools",
@@ -235,6 +252,40 @@
 		"imageWidth" : 256,
 		"imageX" : 420,
 		"imageY" : 26,
+		"image" : null
+	},
+	{
+		"id" : 15,
+		"name" : "Water Jar",
+		"type" : "tools",
+		"health" : 1,
+		"requiredLevel" : 30,
+		"engramPoints" : 12,
+		"prerequisites" : [["tools", 7002]],
+		"unlocks" : [["tools", "Canteen"]],
+		"unlocksLines" : [],
+		"imageURL" : "images/Water_Jar.png",
+		"imageHeight" : 256,
+		"imageWidth" : 256,
+		"imageX" : 472,
+		"imageY" : 149,
+		"image" : null
+	},
+	{
+		"id" : 380,
+		"name" : "Metal Sickle",
+		"type" : "tools",
+		"health" : 40,
+		"requiredLevel" : 30,
+		"engramPoints" : 12,
+		"prerequisites" : [["tools", 36],["tools", 35]],
+		"unlocks" : [],
+		"unlocksLines" : [],
+		"imageURL" : "images/Metal_Sickle.png",
+		"imageHeight" : 256,
+		"imageWidth" : 256,
+		"imageX" : 396,
+		"imageY" : 83,
 		"image" : null
 	}
 ]

@@ -12,8 +12,8 @@
 		"imageURL" : "images/Phiomia_Saddle.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 813,
-		"imageY" : 606,
+		"imageX" : 1148,
+		"imageY" : 4,
 		"image" : null
 	},
 	{
@@ -29,8 +29,8 @@
 		"imageURL" : "images/Parasaur_Saddle.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 880,
-		"imageY" : 606,
+		"imageX" : 1148,
+		"imageY" : 4,
 		"image" : null
 	},
 	{
@@ -46,8 +46,8 @@
 		"imageURL" : "images/Ichthyosaurus_Saddle.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 935,
-		"imageY" : 606,
+		"imageX" : 1148,
+		"imageY" : 4,
 		"image" : null
 	},
 	{
@@ -63,8 +63,8 @@
 		"imageURL" : "images/Pachy_Saddle.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 985,
-		"imageY" : 606,
+		"imageX" : 1148,
+		"imageY" : 4,
 		"image" : null
 	},
 	{
@@ -80,8 +80,8 @@
 		"imageURL" : "images/Raptor_Saddle.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 1035,
-		"imageY" : 606,
+		"imageX" : 1148,
+		"imageY" : 4,
 		"image" : null
 	},
 	{
@@ -97,8 +97,8 @@
 		"imageURL" : "images/Trike_Saddle.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 813,
-		"imageY" : 656,
+		"imageX" : 1148,
+		"imageY" : 4,
 		"image" : null
 	},
 	{
@@ -114,8 +114,8 @@
 		"imageURL" : "images/Pulmonoscorpius_Saddle.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 813,
-		"imageY" : 656,
+		"imageX" : 1148,
+		"imageY" : 4,
 		"image" : null
 	},
 	{
@@ -131,8 +131,8 @@
 		"imageURL" : "images/Carbonemys_Saddle.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 813,
-		"imageY" : 656,
+		"imageX" : 1148,
+		"imageY" : 4,
 		"image" : null
 	},
 	{
@@ -148,8 +148,8 @@
 		"imageURL" : "images/Beelzebufo_Saddle.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 813,
-		"imageY" : 656,
+		"imageX" : 1148,
+		"imageY" : 4,
 		"image" : null
 	},
 	{
@@ -165,8 +165,110 @@
 		"imageURL" : "images/Terror_Bird_Saddle.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 813,
-		"imageY" : 656,
+		"imageX" : 1148,
+		"imageY" : 4,
+		"image" : null
+	},
+	{
+		"id" : 5002,
+		"name" : "Stego Saddle",
+		"type" : "saddle",
+		"health" : 50,
+		"requiredLevel" : 30,
+		"engramPoints" : 15,
+		"prerequisites" : [],
+		"unlocks" : [],
+		"unlocksLines" : [],
+		"imageURL" : "images/Stego_Saddle.png",
+		"imageHeight" : 256,
+		"imageWidth" : 256,
+		"imageX" : 1148,
+		"imageY" : 4,
+		"image" : null
+	},
+	{
+		"id" : 393,
+		"name" : "Doedicurus Saddle",
+		"type" : "saddle",
+		"health" : 50,
+		"requiredLevel" : 30,
+		"engramPoints" : 20,
+		"prerequisites" : [],
+		"unlocks" : [],
+		"unlocksLines" : [],
+		"imageURL" : "images/Doedicurus_Saddle.png",
+		"imageHeight" : 256,
+		"imageWidth" : 256,
+		"imageX" : 1148,
+		"imageY" : 4,
+		"image" : null
+	},
+	{
+		"id" : 422,
+		"name" : "Paracer Saddle",
+		"type" : "saddle",
+		"health" : 50,
+		"requiredLevel" : 30,
+		"engramPoints" : 20,
+		"prerequisites" : [],
+		"unlocks" : [["saddle",423]],
+		"unlocksLines" : [],
+		"imageURL" : "images/Paracer_Saddle.png",
+		"imageHeight" : 256,
+		"imageWidth" : 256,
+		"imageX" : 1148,
+		"imageY" : 4,
+		"image" : null
+	},
+	{
+		"id" : 428,
+		"name" : "Megaloceros Saddle",
+		"type" : "saddle",
+		"health" : 50,
+		"requiredLevel" : 30,
+		"engramPoints" : 20,
+		"prerequisites" : [],
+		"unlocks" : [],
+		"unlocksLines" : [],
+		"imageURL" : "images/Megaloceros_Saddle.png",
+		"imageHeight" : 256,
+		"imageWidth" : 256,
+		"imageX" : 1148,
+		"imageY" : 4,
+		"image" : null
+	},
+	{
+		"id" : 131,
+		"name" : "Pteranodon Saddle",
+		"type" : "saddle",
+		"health" : 50,
+		"requiredLevel" : 35,
+		"engramPoints" : 15,
+		"prerequisites" : [],
+		"unlocks" : [],
+		"unlocksLines" : [],
+		"imageURL" : "images/Pteranodon_Saddle.png",
+		"imageHeight" : 256,
+		"imageWidth" : 256,
+		"imageX" : 1148,
+		"imageY" : 4,
+		"image" : null
+	},
+	{
+		"id" : 208,
+		"name" : "Sarco Saddle",
+		"type" : "saddle",
+		"health" : 50,
+		"requiredLevel" : 35,
+		"engramPoints" : 15,
+		"prerequisites" : [],
+		"unlocks" : [],
+		"unlocksLines" : [],
+		"imageURL" : "images/Sarco_Saddle.png",
+		"imageHeight" : 256,
+		"imageWidth" : 256,
+		"imageX" : 1148,
+		"imageY" : 4,
 		"image" : null
 	}
 ]
