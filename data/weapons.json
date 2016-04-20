@@ -12,8 +12,8 @@
 		"imageURL" : "images/Spear.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 0,
-		"imageY" : 0,
+		"imageX" : 3,
+		"imageY" : 306,
 		"image" : null
 	},
 	{
@@ -29,8 +29,8 @@
 		"imageURL" : "images/Wooden_Club.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 0,
-		"imageY" : 0,
+		"imageX" : 3,
+		"imageY" : 306,
 		"image" : null
 	},
 	{
@@ -46,8 +46,8 @@
 		"imageURL" : "images/Slingshot.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 0,
-		"imageY" : 0,
+		"imageX" : 3,
+		"imageY" : 306,
 		"image" : null
 	},
 	{
@@ -63,8 +63,8 @@
 		"imageURL" : "images/Bow.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 0,
-		"imageY" : 0,
+		"imageX" : 3,
+		"imageY" : 306,
 		"image" : null
 	},
 	{
@@ -80,8 +80,8 @@
 		"imageURL" : "images/Stone_Arrow.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 0,
-		"imageY" : 0,
+		"imageX" : 3,
+		"imageY" : 306,
 		"image" : null
 	},
 	{
@@ -97,8 +97,8 @@
 		"imageURL" : "images/Tranquilizer_Arrow.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 0,
-		"imageY" : 0,
+		"imageX" : 3,
+		"imageY" : 306,
 		"image" : null
 	},
 	{
@@ -114,8 +114,8 @@
 		"imageURL" : "images/Tripwire_Alarm_Trap.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 0,
-		"imageY" : 0,
+		"imageX" : 3,
+		"imageY" : 306,
 		"image" : null
 	},
 	{
@@ -131,8 +131,8 @@
 		"imageURL" : "images/Pike.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 0,
-		"imageY" : 0,
+		"imageX" : 3,
+		"imageY" : 306,
 		"image" : null
 	},
 	{
@@ -148,8 +148,8 @@
 		"imageURL" : "images/Crossbow.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 0,
-		"imageY" : 0,
+		"imageX" : 3,
+		"imageY" : 306,
 		"image" : null
 	},
 	{
@@ -165,8 +165,8 @@
 		"imageURL" : "images/Tripwire_Narcotic_Trap.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 0,
-		"imageY" : 0,
+		"imageX" : 3,
+		"imageY" : 306,
 		"image" : null
 	},
 	{
@@ -182,8 +182,8 @@
 		"imageURL" : "images/Bear_Trap.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 0,
-		"imageY" : 0,
+		"imageX" : 3,
+		"imageY" : 306,
 		"image" : null
 	},
 	{
@@ -199,8 +199,8 @@
 		"imageURL" : "images/Large_Bear_Trap.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 0,
-		"imageY" : 0,
+		"imageX" : 3,
+		"imageY" : 306,
 		"image" : null
 	},
 	{
@@ -250,8 +250,8 @@
 		"imageURL" : "images/Ballista_Turret.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 0,
-		"imageY" : 0,
+		"imageX" : 3,
+		"imageY" : 306,
 		"image" : null
 	},
 	{
@@ -267,8 +267,8 @@
 		"imageURL" : "images/Ballista_Bolt.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 0,
-		"imageY" : 0,
+		"imageX" : 3,
+		"imageY" : 306,
 		"image" : null
 	},
 	{
@@ -284,8 +284,8 @@
 		"imageURL" : "images/Catapult_Turret.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 0,
-		"imageY" : 0,
+		"imageX" : 3,
+		"imageY" : 306,
 		"image" : null
 	},
 	{
@@ -301,8 +301,8 @@
 		"imageURL" : "images/Simple_Pistol.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 0,
-		"imageY" : 0,
+		"imageX" : 3,
+		"imageY" : 306,
 		"image" : null
 	},
 	{
@@ -318,8 +318,8 @@
 		"imageURL" : "images/Simple_Bullet.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 0,
-		"imageY" : 0,
+		"imageX" : 3,
+		"imageY" : 306,
 		"image" : null
 	},
 	{
@@ -352,8 +352,8 @@
 		"imageURL" : "images/Grenade.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 0,
-		"imageY" : 0,
+		"imageX" : 3,
+		"imageY" : 306,
 		"image" : null
 	},
 	{
@@ -369,8 +369,8 @@
 		"imageURL" : "images/Metal_Sword.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 0,
-		"imageY" : 0,
+		"imageX" : 3,
+		"imageY" : 306,
 		"image" : null
 	},
 	{
@@ -386,8 +386,8 @@
 		"imageURL" : "images/Longneck_Rifle.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 0,
-		"imageY" : 0,
+		"imageX" : 3,
+		"imageY" : 306,
 		"image" : null
 	},
 	{
@@ -403,8 +403,8 @@
 		"imageURL" : "images/Simple_Rifle_Ammo.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 0,
-		"imageY" : 0,
+		"imageX" : 3,
+		"imageY" : 306,
 		"image" : null
 	},
 	{
@@ -420,25 +420,42 @@
 		"imageURL" : "images/Shotgun.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 0,
-		"imageY" : 0,
+		"imageX" : 3,
+		"imageY" : 306,
 		"image" : null
 	},
 	{
-		"id" : 268,
-		"name" : "Simple Shotgun Ammo",
+		"id" : 435,
+		"name" : "Poison Grenade",
 		"type" : "weapons",
-		"health" : 60,
-		"requiredLevel" : 30,
-		"engramPoints" : 6,
-		"prerequisites" : [["weapons", 4]],
+		"health" : 1,
+		"requiredLevel" : 40,
+		"engramPoints" : 18,
+		"prerequisites" : [["weapons", 8001],["weapons",325]],
 		"unlocks" : [],
 		"unlocksLines" : [],
-		"imageURL" : "images/Simple_Shotgun_Ammo.png",
+		"imageURL" : "images/Poison_Grenade.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 0,
-		"imageY" : 0,
+		"imageX" : 216,
+		"imageY" : 128,
+		"image" : null
+	},
+	{
+		"id" : 206,
+		"name" : "Silencer Attachment",
+		"type" : "weapons",
+		"health" : 1,
+		"requiredLevel" : 40,
+		"engramPoints" : 13,
+		"prerequisites" : [],
+		"unlocks" : [],
+		"unlocksLines" : [],
+		"imageURL" : "images/Silencer_Attachment.png",
+		"imageHeight" : 256,
+		"imageWidth" : 256,
+		"imageX" : 152,
+		"imageY" : 32,
 		"image" : null
 	}
 ]

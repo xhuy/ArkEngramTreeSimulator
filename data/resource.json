@@ -115,7 +115,41 @@
 		"imageHeight" : 256,
 		"imageWidth" : 256,
 		"imageX" : 532,
-		"imageY" : 296,
+		"imageY" : 298,
+		"image" : null
+	},
+	{
+		"id" : 166,
+		"name" : "Polymer",
+		"type" : "resource",
+		"health" : 1,
+		"requiredLevel" : 40,
+		"engramPoints" : 6,
+		"prerequisites" : [],
+		"unlocks" : [],
+		"unlocksLines" : [],
+		"imageURL" : "images/Polymer.png",
+		"imageHeight" : 256,
+		"imageWidth" : 256,
+		"imageX" : 702,
+		"imageY" : 350,
+		"image" : null
+	},
+	{
+		"id" : 165,
+		"name" : "Electronics",
+		"type" : "resource",
+		"health" : 1,
+		"requiredLevel" : 40,
+		"engramPoints" : 6,
+		"prerequisites" : [],
+		"unlocks" : [["structuress",198],["weapons",42]],
+		"unlocksLines" : [],
+		"imageURL" : "images/Electronics.png",
+		"imageHeight" : 256,
+		"imageWidth" : 256,
+		"imageX" : 702,
+		"imageY" : 403,
 		"image" : null
 	}
 ]

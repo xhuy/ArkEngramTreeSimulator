@@ -12,8 +12,8 @@
 		"imageURL" : "images/Thatch_Foundation.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 60,
-		"imageY" : 60,
+		"imageX" : 1200,
+		"imageY" : 0,
 		"image" : null
 	},
 	{
@@ -29,8 +29,8 @@
 		"imageURL" : "images/Thatch_Doorframe.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 60,
-		"imageY" : 120,
+		"imageX" : 1556,
+		"imageY" : 0,
 		"image" : null
 	},
 	{
@@ -80,7 +80,7 @@
 		"imageURL" : "images/Thatch_Roof.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 0,
+		"imageX" : 1432,
 		"imageY" : 0,
 		"image" : null
 	},
@@ -97,7 +97,7 @@
 		"imageURL" : "images/Thatch_Wall.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 0,
+		"imageX" : 1314,
 		"imageY" : 0,
 		"image" : null
 	},
@@ -114,8 +114,8 @@
 		"imageURL" : "images/Thatch_Door.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 120,
-		"imageY" : 120,
+		"imageX" : 1618,
+		"imageY" : 0,
 		"image" : null
 	},
 	{
@@ -216,8 +216,8 @@
 		"imageURL" : "images/Sloped_Thatch_Wall_Left.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 120,
-		"imageY" : 60,
+		"imageX" : 1247,
+		"imageY" : 0,
 		"image" : null
 	},
 	{
@@ -233,8 +233,8 @@
 		"imageURL" : "images/Sloped_Thatch_Wall_Right.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 120,
-		"imageY" : 60,
+		"imageX" : 1375,
+		"imageY" : 0,
 		"image" : null
 	},
 	{
@@ -250,8 +250,8 @@
 		"imageURL" : "images/Sloped_Thatch_Roof.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 120,
-		"imageY" : 60,
+		"imageX" : 1497,
+		"imageY" : 0,
 		"image" : null
 	},
 	{
@@ -267,8 +267,8 @@
 		"imageURL" : "images/Wooden_Wall.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 120,
-		"imageY" : 60,
+		"imageX" : 1314,
+		"imageY" : 105,
 		"image" : null
 	},
 	{
@@ -284,8 +284,8 @@
 		"imageURL" : "images/Wooden_Foundation.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 120,
-		"imageY" : 60,
+		"imageX" : 1199,
+		"imageY" : 105,
 		"image" : null
 	},
 	{
@@ -403,7 +403,7 @@
 		"imageURL" : "images/Wooden_Spike_Wall.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 0,
+		"imageX" : 1918,
 		"imageY" : 0,
 		"image" : null
 	},
@@ -437,8 +437,8 @@
 		"imageURL" : "images/Wooden_Ceiling.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 0,
-		"imageY" : 0,
+		"imageX" : 1433,
+		"imageY" : 105,
 		"image" : null
 	},
 	{
@@ -454,8 +454,25 @@
 		"imageURL" : "images/Sloped_Wood_Wall_Left.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 0,
-		"imageY" : 0,
+		"imageX" : 1250,
+		"imageY" : 105,
+		"image" : null
+	},
+	{
+		"id" : 399,
+		"name" : "Sloped Wood Wall Right",
+		"type" : "structures",
+		"health" : 10000,
+		"requiredLevel" : 10,
+		"engramPoints" : 3,
+		"prerequisites" : [["structures",93],["structures",396]],
+		"unlocks" : [["structures",402]],
+		"unlocksLines" : [],
+		"imageURL" : "images/Sloped_Wood_Wall_Right.png",
+		"imageHeight" : 256,
+		"imageWidth" : 256,
+		"imageX" : 1375,
+		"imageY" : 105,
 		"image" : null
 	},
 	{
@@ -471,8 +488,8 @@
 		"imageURL" : "images/Sloped_Wooden_Roof.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 0,
-		"imageY" : 0,
+		"imageX" : 1501,
+		"imageY" : 105,
 		"image" : null
 	},
 	{
@@ -488,8 +505,8 @@
 		"imageURL" : "images/Wooden_Doorframe.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 0,
-		"imageY" : 0,
+		"imageX" : 1558,
+		"imageY" : 105,
 		"image" : null
 	},
 	{
@@ -505,8 +522,8 @@
 		"imageURL" : "images/Wooden_Door.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 0,
-		"imageY" : 0,
+		"imageX" : 1619,
+		"imageY" : 105,
 		"image" : null
 	},
 	{
@@ -556,8 +573,8 @@
 		"imageURL" : "images/Wooden_Railing.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 0,
-		"imageY" : 0,
+		"imageX" : 1127,
+		"imageY" : 105,
 		"image" : null
 	},
 	{
@@ -692,8 +709,8 @@
 		"imageURL" : "images/Stone_Fence_Foundation.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 0,
-		"imageY" : 0,
+		"imageX" : 1160,
+		"imageY" : 231,
 		"image" : null
 	},
 	{
@@ -709,8 +726,8 @@
 		"imageURL" : "images/Stone_Wall.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 0,
-		"imageY" : 0,
+		"imageX" : 1160,
+		"imageY" : 231,
 		"image" : null
 	},
 	{
@@ -760,8 +777,8 @@
 		"imageURL" : "images/Dinosaur_Gateway.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 0,
-		"imageY" : 0,
+		"imageX" : 1160,
+		"imageY" : 231,
 		"image" : null
 	},
 	{
@@ -777,8 +794,8 @@
 		"imageURL" : "images/Dinosaur_Gate.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 0,
-		"imageY" : 0,
+		"imageX" : 1160,
+		"imageY" : 231,
 		"image" : null
 	},
 	{
@@ -794,8 +811,8 @@
 		"imageURL" : "images/Wooden_Pillar.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 0,
-		"imageY" : 0,
+		"imageX" : 1908,
+		"imageY" : 105,
 		"image" : null
 	},
 	{
@@ -811,8 +828,8 @@
 		"imageURL" : "images/Wooden_Hatchframe.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 0,
-		"imageY" : 0,
+		"imageX" : 1788,
+		"imageY" : 105,
 		"image" : null
 	},
 	{
@@ -828,8 +845,8 @@
 		"imageURL" : "images/Wooden_Ladder.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 0,
-		"imageY" : 0,
+		"imageX" : 1160,
+		"imageY" : 231,
 		"image" : null
 	},
 	{
@@ -862,8 +879,8 @@
 		"imageURL" : "images/Wooden_Bench.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 0,
-		"imageY" : 0,
+		"imageX" : 1160,
+		"imageY" : 231,
 		"image" : null
 	},
 	{
@@ -879,8 +896,8 @@
 		"imageURL" : "images/Wooden_Table.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 0,
-		"imageY" : 0,
+		"imageX" : 1160,
+		"imageY" : 231,
 		"image" : null
 	},
 	{
@@ -896,8 +913,8 @@
 		"imageURL" : "images/Trophy_Base.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 0,
-		"imageY" : 0,
+		"imageX" : 1160,
+		"imageY" : 231,
 		"image" : null
 	},
 	{
@@ -913,8 +930,8 @@
 		"imageURL" : "images/Trophy_Wall-Mount.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 0,
-		"imageY" : 0,
+		"imageX" : 1160,
+		"imageY" : 231,
 		"image" : null
 	},
 	{
@@ -947,8 +964,8 @@
 		"imageURL" : "images/Wooden_Catwalk.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 0,
-		"imageY" : 0,
+		"imageX" : 1160,
+		"imageY" : 231,
 		"image" : null
 	},
 	{
@@ -964,8 +981,8 @@
 		"imageURL" : "images/Wooden_Trapdoor.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 0,
-		"imageY" : 0,
+		"imageX" : 1850,
+		"imageY" : 105,
 		"image" : null
 	},
 	{
@@ -981,8 +998,8 @@
 		"imageURL" : "images/Wooden_Windowframe.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 0,
-		"imageY" : 0,
+		"imageX" : 1675,
+		"imageY" : 105,
 		"image" : null
 	},
 	{
@@ -998,8 +1015,8 @@
 		"imageURL" : "images/Stone_Foundation.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 0,
-		"imageY" : 0,
+		"imageX" : 1160,
+		"imageY" : 231,
 		"image" : null
 	},
 	{
@@ -1015,8 +1032,8 @@
 		"imageURL" : "images/Stone_Ceiling.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 0,
-		"imageY" : 0,
+		"imageX" : 1160,
+		"imageY" : 231,
 		"image" : null
 	},
 	{
@@ -1032,8 +1049,8 @@
 		"imageURL" : "images/Sloped_Stone_Wall_Left.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 0,
-		"imageY" : 0,
+		"imageX" : 1160,
+		"imageY" : 231,
 		"image" : null
 	},
 	{
@@ -1049,8 +1066,8 @@
 		"imageURL" : "images/Sloped_Stone_Wall_Right.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 0,
-		"imageY" : 0,
+		"imageX" : 1160,
+		"imageY" : 231,
 		"image" : null
 	},
 	{
@@ -1066,8 +1083,8 @@
 		"imageURL" : "images/Sloped_Stone_Roof.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 0,
-		"imageY" : 0,
+		"imageX" : 1160,
+		"imageY" : 231,
 		"image" : null
 	},
 	{
@@ -1083,8 +1100,8 @@
 		"imageURL" : "images/Stone_Doorframe.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 0,
-		"imageY" : 0,
+		"imageX" : 1160,
+		"imageY" : 231,
 		"image" : null
 	},
 	{
@@ -1100,8 +1117,8 @@
 		"imageURL" : "images/Reinforced_Wooden_Door.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 0,
-		"imageY" : 0,
+		"imageX" : 1160,
+		"imageY" : 231,
 		"image" : null
 	},
 	{
@@ -1117,8 +1134,8 @@
 		"imageURL" : "images/Stone_Dinosaur_Gateway.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 0,
-		"imageY" : 0,
+		"imageX" : 1160,
+		"imageY" : 231,
 		"image" : null
 	},
 	{
@@ -1134,8 +1151,8 @@
 		"imageURL" : "images/Reinforced_Dinosaur_Gate.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 0,
-		"imageY" : 0,
+		"imageX" : 1160,
+		"imageY" : 231,
 		"image" : null
 	},
 	{
@@ -1168,8 +1185,8 @@
 		"imageURL" : "images/Stone_Railing.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 0,
-		"imageY" : 0,
+		"imageX" : 1160,
+		"imageY" : 231,
 		"image" : null
 	},
 	{
@@ -1185,7 +1202,7 @@
 		"imageURL" : "images/Metal_Spike_Wall.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 0,
+		"imageX" : 1986,
 		"imageY" : 0,
 		"image" : null
 	},
@@ -1236,8 +1253,8 @@
 		"imageURL" : "images/Stone_Pillar.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 0,
-		"imageY" : 0,
+		"imageX" : 1160,
+		"imageY" : 231,
 		"image" : null
 	},
 	{
@@ -1253,8 +1270,25 @@
 		"imageURL" : "images/Stone_Hatchframe.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 0,
-		"imageY" : 0,
+		"imageX" : 1160,
+		"imageY" : 231,
+		"image" : null
+	},
+	{
+		"id" : 323,
+		"name" : "Stone Windowframe",
+		"type" : "structures",
+		"health" : 10000,
+		"requiredLevel" : 25,
+		"engramPoints" : 11,
+		"prerequisites" : [["structures",311],["structures",95]],
+		"unlocks" : [["structures",181],["structures",357]],
+		"unlocksLines" : [],
+		"imageURL" : "images/Stone_Windowframe.png",
+		"imageHeight" : 256,
+		"imageWidth" : 256,
+		"imageX" : 1160,
+		"imageY" : 231,
 		"image" : null
 	},
 	{
@@ -1270,29 +1304,12 @@
 		"imageURL" : "images/Stone_Windowframe.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 0,
-		"imageY" : 0,
+		"imageX" : 1160,
+		"imageY" : 231,
 		"image" : null
 	},
 	{
-		"id" : 316,
-		"name" : "Stone Windowframe",
-		"type" : "structures",
-		"health" : 10000,
-		"requiredLevel" : 25,
-		"engramPoints" : 11,
-		"prerequisites" : [["structures",311],["structures",95]],
-		"unlocks" : [["structures",181],["structures",357]],
-		"unlocksLines" : [],
-		"imageURL" : "images/Stone_Windowframe.png",
-		"imageHeight" : 256,
-		"imageWidth" : 256,
-		"imageX" : 0,
-		"imageY" : 0,
-		"image" : null
-	},
-	{
-		"id" : 316,
+		"id" : 96,
 		"name" : "Wooden Window",
 		"type" : "structures",
 		"health" : 6250,
@@ -1304,8 +1321,8 @@
 		"imageURL" : "images/Wooden_Window.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 0,
-		"imageY" : 0,
+		"imageX" : 1731,
+		"imageY" : 105,
 		"image" : null
 	},
 	{
@@ -1338,8 +1355,8 @@
 		"imageURL" : "images/Behemoth_Stone_Dinosaur_Gateway.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 0,
-		"imageY" : 0,
+		"imageX" : 1160,
+		"imageY" : 231,
 		"image" : null
 	},
 	{
@@ -1355,8 +1372,8 @@
 		"imageURL" : "images/Behemoth_Reinforced_Dinosaur_Gate.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 0,
-		"imageY" : 0,
+		"imageX" : 1160,
+		"imageY" : 231,
 		"image" : null
 	},
 	{
@@ -1372,8 +1389,8 @@
 		"imageURL" : "images/Reinforced_Trapdoor.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 0,
-		"imageY" : 0,
+		"imageX" : 1160,
+		"imageY" : 231,
 		"image" : null
 	},
 	{
@@ -1389,8 +1406,8 @@
 		"imageURL" : "images/Reinforced_Window.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 0,
-		"imageY" : 0,
+		"imageX" : 1160,
+		"imageY" : 231,
 		"image" : null
 	},
 	{
@@ -1423,8 +1440,8 @@
 		"imageURL" : "images/Metal_Foundation.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 0,
-		"imageY" : 0,
+		"imageX" : 1160,
+		"imageY" : 231,
 		"image" : null
 	},
 	{
@@ -1440,8 +1457,8 @@
 		"imageURL" : "images/Metal_Wall.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 0,
-		"imageY" : 0,
+		"imageX" : 1160,
+		"imageY" : 231,
 		"image" : null
 	},
 	{
@@ -1457,8 +1474,8 @@
 		"imageURL" : "images/Sloped_Metal_Wall_Left.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 0,
-		"imageY" : 0,
+		"imageX" : 1160,
+		"imageY" : 231,
 		"image" : null
 	},
 	{
@@ -1474,8 +1491,8 @@
 		"imageURL" : "images/Sloped_Metal_Wall_Right.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 0,
-		"imageY" : 0,
+		"imageX" : 1160,
+		"imageY" : 231,
 		"image" : null
 	},
 	{
@@ -1491,8 +1508,8 @@
 		"imageURL" : "images/Metal_Doorframe.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 0,
-		"imageY" : 0,
+		"imageX" : 1160,
+		"imageY" : 231,
 		"image" : null
 	},
 	{
@@ -1508,8 +1525,8 @@
 		"imageURL" : "images/Metal_Railing.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 0,
-		"imageY" : 0,
+		"imageX" : 1160,
+		"imageY" : 231,
 		"image" : null
 	},
 	{
@@ -1525,8 +1542,8 @@
 		"imageURL" : "images/Stone_Fireplace.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 0,
-		"imageY" : 0,
+		"imageX" : 1160,
+		"imageY" : 231,
 		"image" : null
 	},
 	{
@@ -1559,8 +1576,8 @@
 		"imageURL" : "images/Metal_Pillar.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 0,
-		"imageY" : 0,
+		"imageX" : 1160,
+		"imageY" : 231,
 		"image" : null
 	},
 	{
@@ -1576,8 +1593,8 @@
 		"imageURL" : "images/Metal_Ceiling.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 0,
-		"imageY" : 0,
+		"imageX" : 1160,
+		"imageY" : 231,
 		"image" : null
 	},
 	{
@@ -1593,8 +1610,8 @@
 		"imageURL" : "images/Sloped_Metal_Roof.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 0,
-		"imageY" : 0,
+		"imageX" : 1160,
+		"imageY" : 231,
 		"image" : null
 	},
 	{
@@ -1610,8 +1627,8 @@
 		"imageURL" : "images/Metal_Door.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 0,
-		"imageY" : 0,
+		"imageX" : 1160,
+		"imageY" : 231,
 		"image" : null
 	},
 	{
@@ -1627,8 +1644,8 @@
 		"imageURL" : "images/Metal_Ramp.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 0,
-		"imageY" : 0,
+		"imageX" : 1160,
+		"imageY" : 231,
 		"image" : null
 	},
 	{
@@ -1646,6 +1663,125 @@
 		"imageWidth" : 256,
 		"imageX" : 83,
 		"imageY" : 775,
+		"image" : null
+	},
+	{
+		"id" : 200,
+		"name" : "Metal Irrigation Pipe - Tap(Intake)",
+		"type" : "structures",
+		"health" : 1,
+		"requiredLevel" : 40,
+		"engramPoints" : 15,
+		"prerequisites" : [["structures",110]],
+		"unlocks" : [["structures",202]],
+		"unlocksLines" : [],
+		"imageURL" : "images/Metal_Irrigation_Pipe_-_Tap(Intake).png",
+		"imageHeight" : 256,
+		"imageWidth" : 256,
+		"imageX" : 579,
+		"imageY" : 665,
+		"image" : null
+	},
+	{
+		"id" : 202,
+		"name" : "Metal Irrigation Pipe - Straight",
+		"type" : "structures",
+		"health" : 1,
+		"requiredLevel" : 40,
+		"engramPoints" : 12,
+		"prerequisites" : [["structures",111],["structures",200]],
+		"unlocks" : [["structures",199],["structures",201],["structures",203],["structures",204]],
+		"unlocksLines" : [],
+		"imageURL" : "images/Metal_Irrigation_Pipe_-_Straight.png",
+		"imageHeight" : 256,
+		"imageWidth" : 256,
+		"imageX" : 484,
+		"imageY" : 643,
+		"image" : null
+	},
+	{
+		"id" : 169,
+		"name" : "Metal Hatchframe",
+		"type" : "structures",
+		"health" : 10000,
+		"requiredLevel" : 40,
+		"engramPoints" : 18,
+		"prerequisites" : [["structures",316],["structures",168]],
+		"unlocks" : [["structures",178]],
+		"unlocksLines" : [],
+		"imageURL" : "images/Metal_Hatchframe.png",
+		"imageHeight" : 256,
+		"imageWidth" : 256,
+		"imageX" : 1160,
+		"imageY" : 231,
+		"image" : null
+	},
+	{
+		"id" : 178,
+		"name" : "Metal Trapdoor",
+		"type" : "structures",
+		"health" : 6250,
+		"requiredLevel" : 40,
+		"engramPoints" : 14,
+		"prerequisites" : [["structures",358],["structures",169]],
+		"unlocks" : [],
+		"unlocksLines" : [],
+		"imageURL" : "images/Metal_Trapdoor.png",
+		"imageHeight" : 256,
+		"imageWidth" : 256,
+		"imageX" : 1160,
+		"imageY" : 231,
+		"image" : null
+	},
+	{
+		"id" : 171,
+		"name" : "Metal Fence Foundation",
+		"type" : "structures",
+		"health" : 10000,
+		"requiredLevel" : 40,
+		"engramPoints" : 12,
+		"prerequisites" : [["structures",310],["structures",172]],
+		"unlocks" : [],
+		"unlocksLines" : [],
+		"imageURL" : "images/Metal_Fence_Foundation.png",
+		"imageHeight" : 256,
+		"imageWidth" : 256,
+		"imageX" : 1160,
+		"imageY" : 231,
+		"image" : null
+	},
+	{
+		"id" : 265,
+		"name" : "Metal Dinosaur Gateway",
+		"type" : "structures",
+		"health" : 10000,
+		"requiredLevel" : 40,
+		"engramPoints" : 12,
+		"prerequisites" : [["structures",180],["structures",143]],
+		"unlocks" : [["structures",174],["structures",266]],
+		"unlocksLines" : [],
+		"imageURL" : "images/Metal_Dinosaur_Gateway.png",
+		"imageHeight" : 256,
+		"imageWidth" : 256,
+		"imageX" : 1160,
+		"imageY" : 231,
+		"image" : null
+	},
+	{
+		"id" : 266,
+		"name" : "Metal Dinosaur Gate",
+		"type" : "structures",
+		"health" : 10000,
+		"requiredLevel" : 40,
+		"engramPoints" : 8,
+		"prerequisites" : [["structures",147],["structures",265]],
+		"unlocks" : [["structures",173]],
+		"unlocksLines" : [],
+		"imageURL" : "images/Metal_Dinosaur_Gate.png",
+		"imageHeight" : 256,
+		"imageWidth" : 256,
+		"imageX" : 1160,
+		"imageY" : 231,
 		"image" : null
 	}
 ]

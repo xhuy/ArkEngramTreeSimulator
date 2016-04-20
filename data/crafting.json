@@ -29,8 +29,8 @@
 		"imageURL" : "images/Refining_Forge.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 149,
-		"imageY" : 176,
+		"imageX" : 226,
+		"imageY" : 717,
 		"image" : null
 	},
 	{
@@ -48,6 +48,23 @@
 		"imageWidth" : 256,
 		"imageX" : 156,
 		"imageY" : 718,
+		"image" : null
+	},
+	{
+		"id" : 185,
+		"name" : "Fabricator",
+		"type" : "crafting",
+		"health" : 2500,
+		"requiredLevel" : 40,
+		"engramPoints" : 24,
+		"prerequisites" : [["crafting", 126]],
+		"unlocks" : [["tools", "Canteen"],["weapons", 376],["crafting", "Industrial Forge"],["crafting", 360],["armor", "SCUBA Leggings"],["armor", 388],["armor", 387],["tools", 392]],
+		"unlocksLines" : [],
+		"imageURL" : "images/Fabricator.png",
+		"imageHeight" : 256,
+		"imageWidth" : 256,
+		"imageX" : 156,
+		"imageY" : 773,
 		"image" : null
 	}
 ]
