@@ -457,5 +457,39 @@
 		"imageX" : 945,
 		"imageY" : 1211,
 		"image" : null
+	},
+	{
+		"id" : 222,
+		"name" : "Flak Leggings",
+		"type" : "armor",
+		"health" : 120,
+		"requiredLevel" : 45,
+		"engramPoints" : 15,
+		"prerequisites" : [["armor",27]],
+		"unlocks" : [],
+		"unlocksLines" : [],
+		"imageURL" : "images/Flak_Leggings.png",
+		"imageHeight" : 256,
+		"imageWidth" : 256,
+		"imageX" : 945,
+		"imageY" : 1211,
+		"image" : null
+	},
+	{
+		"id" : 223,
+		"name" : "Flak Chestpiece",
+		"type" : "armor",
+		"health" : 120,
+		"requiredLevel" : 45,
+		"engramPoints" : 18,
+		"prerequisites" : [["armor",28]],
+		"unlocks" : [],
+		"unlocksLines" : [],
+		"imageURL" : "images/Flak_Chestpiece.png",
+		"imageHeight" : 256,
+		"imageWidth" : 256,
+		"imageX" : 945,
+		"imageY" : 1211,
+		"image" : null
 	}
 ]

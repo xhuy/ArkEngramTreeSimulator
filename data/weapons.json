@@ -457,5 +457,39 @@
 		"imageX" : 152,
 		"imageY" : 32,
 		"image" : null
+	},
+	{
+		"id" : 46,
+		"name" : "Improvised Explosive Device",
+		"type" : "weapons",
+		"health" : 1,
+		"requiredLevel" : 40,
+		"engramPoints" : 35,
+		"prerequisites" : [["weapons", 6]],
+		"unlocks" : [["weapons", 43],["weapons", "Homing Underwater Mine"]],
+		"unlocksLines" : [],
+		"imageURL" : "images/Improvised_Explosive_Device.png",
+		"imageHeight" : 256,
+		"imageWidth" : 256,
+		"imageX" : 152,
+		"imageY" : 32,
+		"image" : null
+	},
+	{
+		"id" : 205,
+		"name" : "Flashlight Attachment",
+		"type" : "weapons",
+		"health" : 1,
+		"requiredLevel" : 45,
+		"engramPoints" : 18,
+		"prerequisites" : [["weapons", 220]],
+		"unlocks" : [],
+		"unlocksLines" : [],
+		"imageURL" : "images/Flashlight_Attachment.png",
+		"imageHeight" : 256,
+		"imageWidth" : 256,
+		"imageX" : 152,
+		"imageY" : 32,
+		"image" : null
 	}
 ]

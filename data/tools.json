@@ -287,5 +287,22 @@
 		"imageX" : 396,
 		"imageY" : 83,
 		"image" : null
+	},
+	{
+		"id" : 72,
+		"name" : "GPS",
+		"type" : "tools",
+		"health" : 40,
+		"requiredLevel" : 45,
+		"engramPoints" : 21,
+		"prerequisites" : [["tools", 137]],
+		"unlocks" : [["tools", 373],["tools", 372]],
+		"unlocksLines" : [],
+		"imageURL" : "images/GPS.png",
+		"imageHeight" : 256,
+		"imageWidth" : 256,
+		"imageX" : 396,
+		"imageY" : 83,
+		"image" : null
 	}
 ]
