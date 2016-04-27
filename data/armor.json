@@ -97,8 +97,8 @@
 		"imageURL" : "images/Wooden_Shield.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 0,
-		"imageY" : 0,
+		"imageX" : 4,
+		"imageY" : 82,
 		"image" : null
 	},
 	{
@@ -279,7 +279,7 @@
 		"requiredLevel" : 30,
 		"engramPoints" : 15,
 		"prerequisites" : [["armor",24]],
-		"unlocks" : [["armor",224]],
+		"unlocks" : [["armor", 224]],
 		"unlocksLines" : [],
 		"imageURL" : "images/Chitin_Helmet.png",
 		"imageHeight" : 256,
@@ -335,8 +335,8 @@
 		"imageURL" : "images/Metal_Shield.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 0,
-		"imageY" : 0,
+		"imageX" : 1,
+		"imageY" : 145,
 		"image" : null
 	},
 	{
@@ -471,8 +471,8 @@
 		"imageURL" : "images/Flak_Leggings.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 945,
-		"imageY" : 1211,
+		"imageX" : 957,
+		"imageY" : 611,
 		"image" : null
 	},
 	{
@@ -488,8 +488,8 @@
 		"imageURL" : "images/Flak_Chestpiece.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 945,
-		"imageY" : 1211,
+		"imageX" : 967,
+		"imageY" : 345,
 		"image" : null
 	},
 	{
@@ -505,8 +505,8 @@
 		"imageURL" : "images/Flak_Boots.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 945,
-		"imageY" : 1211,
+		"imageX" : 995,
+		"imageY" : 872,
 		"image" : null
 	},
 	{
@@ -522,8 +522,8 @@
 		"imageURL" : "images/Flak_Gauntlets.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 945,
-		"imageY" : 1211,
+		"imageX" : 996,
+		"imageY" : 1155,
 		"image" : null
 	},
 	{
@@ -536,11 +536,11 @@
 		"prerequisites" : [["armor",29]],
 		"unlocks" : [["armor",305]],
 		"unlocksLines" : [],
-		"imageURL" : "images/Flak_Gauntlets.png",
+		"imageURL" : "images/Flak_Helmet.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 945,
-		"imageY" : 1211,
+		"imageX" : 952,
+		"imageY" : 54,
 		"image" : null
 	},
 	{
@@ -556,8 +556,8 @@
 		"imageURL" : "images/Heavy_Miner's_Helmet.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 945,
-		"imageY" : 1211,
+		"imageX" : 1001,
+		"imageY" : 53,
 		"image" : null
 	},
 	{
@@ -573,8 +573,8 @@
 		"imageURL" : "images/SCUBA_Mask.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 945,
-		"imageY" : 1211,
+		"imageX" : 911,
+		"imageY" : 157,
 		"image" : null
 	},
 	{
@@ -590,8 +590,8 @@
 		"imageURL" : "images/SCUBA_Tank.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 945,
-		"imageY" : 1211,
+		"imageX" : 913,
+		"imageY" : 443,
 		"image" : null
 	},
 	{
@@ -607,8 +607,8 @@
 		"imageURL" : "images/SCUBA_Leggings.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 945,
-		"imageY" : 1211,
+		"imageX" : 915,
+		"imageY" : 730,
 		"image" : null
 	},
 	{
@@ -624,8 +624,8 @@
 		"imageURL" : "images/SCUBA_Flippers.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 945,
-		"imageY" : 1211,
+		"imageX" : 935,
+		"imageY" : 998,
 		"image" : null
 	},
 	{
@@ -641,8 +641,8 @@
 		"imageURL" : "images/Riot_Shield.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 945,
-		"imageY" : 1211,
+		"imageX" : 1,
+		"imageY" : 209,
 		"image" : null
 	},
 	{
@@ -658,8 +658,8 @@
 		"imageURL" : "images/Riot_Helmet.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 945,
-		"imageY" : 1211,
+		"imageX" : 958,
+		"imageY" : 109,
 		"image" : null
 	},
 	{
@@ -675,8 +675,8 @@
 		"imageURL" : "images/Riot_Chestpiece.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 945,
-		"imageY" : 1211,
+		"imageX" : 969,
+		"imageY" : 394,
 		"image" : null
 	},
 	{
@@ -692,8 +692,8 @@
 		"imageURL" : "images/Riot_Gauntlets.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 945,
-		"imageY" : 1211,
+		"imageX" : 1001,
+		"imageY" : 1208,
 		"image" : null
 	},
 	{
@@ -709,8 +709,8 @@
 		"imageURL" : "images/Riot_Leggings.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 945,
-		"imageY" : 1211,
+		"imageX" : 958,
+		"imageY" : 675,
 		"image" : null
 	},
 	{
@@ -726,8 +726,8 @@
 		"imageURL" : "images/Riot_Boots.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 945,
-		"imageY" : 1211,
+		"imageX" : 998,
+		"imageY" : 930,
 		"image" : null
 	}
 ]

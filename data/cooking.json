@@ -7,7 +7,7 @@
 		"requiredLevel" : 2,
 		"engramPoints" : 3,
 		"prerequisites" : [],
-		"unlocks" : [["crafting",125],["cooking",128],["cooking",360],["structures","Stone Fireplace"]],
+		"unlocks" : [["crafting",125],["cooking",128],["cooking",360],["structures",6016]],
 		"unlocksLines" : [],
 		"imageURL" : "images/Campfire.png",
 		"imageHeight" : 256,

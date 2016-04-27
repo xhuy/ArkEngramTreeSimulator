@@ -607,8 +607,8 @@
 		"imageURL" : "images/Plesiosaur_Platform_Saddle.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 152,
-		"imageY" : 32,
+		"imageX" : 819,
+		"imageY" : 1474,
 		"image" : null
 	},
 	{
@@ -624,8 +624,8 @@
 		"imageURL" : "images/Quetz_Platform_Saddle.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 152,
-		"imageY" : 32,
+		"imageX" : 819,
+		"imageY" : 1474,
 		"image" : null
 	},
 	{
@@ -641,8 +641,8 @@
 		"imageURL" : "images/Mosasaurus_Platform_Saddle.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 152,
-		"imageY" : 32,
+		"imageX" : 819,
+		"imageY" : 1474,
 		"image" : null
 	},
 	{
@@ -658,8 +658,8 @@
 		"imageURL" : "images/Giganotosaurus_Saddle.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 152,
-		"imageY" : 32,
+		"imageX" : 819,
+		"imageY" : 1474,
 		"image" : null
 	}
 ]

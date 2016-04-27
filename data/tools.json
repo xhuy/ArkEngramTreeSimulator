@@ -301,8 +301,8 @@
 		"imageURL" : "images/GPS.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 396,
-		"imageY" : 83,
+		"imageX" : 675,
+		"imageY" : 157,
 		"image" : null
 	},
 	{
@@ -318,8 +318,8 @@
 		"imageURL" : "images/Canteen.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 396,
-		"imageY" : 83,
+		"imageX" : 470,
+		"imageY" : 89,
 		"image" : null
 	},
 	{
@@ -335,8 +335,8 @@
 		"imageURL" : "images/Spray_Painter.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 396,
-		"imageY" : 83,
+		"imageX" : 591,
+		"imageY" : 158,
 		"image" : null
 	},
 	{
@@ -357,7 +357,7 @@
 		"image" : null
 	},
 	{
-		"id" : 372,
+		"id" : 373,
 		"name" : "Transponder Node",
 		"type" : "tools",
 		"health" : 1,

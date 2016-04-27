@@ -46,8 +46,8 @@
 		"imageURL" : "images/Wooden_Sign.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 0,
-		"imageY" : 0,
+		"imageX" : 1666,
+		"imageY" : 1351,
 		"image" : null
 	},
 	{
@@ -63,8 +63,8 @@
 		"imageURL" : "images/Hide_Sleeping_Bag.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 5,
-		"imageY" : 598,
+		"imageX" : 1794,
+		"imageY" : 1351,
 		"image" : null
 	},
 	{
@@ -131,8 +131,8 @@
 		"imageURL" : "images/Storage_Box.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 188,
-		"imageY" : 504,
+		"imageX" : 1921,
+		"imageY" : 1346,
 		"image" : null
 	},
 	{
@@ -148,8 +148,8 @@
 		"imageURL" : "images/Simple_Bed.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 65,
-		"imageY" : 598,
+		"imageX" : 1793,
+		"imageY" : 1411,
 		"image" : null
 	},
 	{
@@ -165,8 +165,8 @@
 		"imageURL" : "images/Single_Panel_Flag.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 120,
-		"imageY" : 120,
+		"imageX" : 1528,
+		"imageY" : 1412,
 		"image" : null
 	},
 	{
@@ -182,8 +182,8 @@
 		"imageURL" : "images/Multi-Panel_Flag.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 120,
-		"imageY" : 120,
+		"imageX" : 1524,
+		"imageY" : 1352,
 		"image" : null
 	},
 	{
@@ -199,8 +199,8 @@
 		"imageURL" : "images/Standing_Torch.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 120,
-		"imageY" : 60,
+		"imageX" : 1734,
+		"imageY" : 1220,
 		"image" : null
 	},
 	{
@@ -318,8 +318,8 @@
 		"imageURL" : "images/Basic_Gravestone.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 0,
-		"imageY" : 0,
+		"imageX" : 713,
+		"imageY" : 93,
 		"image" : null
 	},
 	{
@@ -403,8 +403,8 @@
 		"imageURL" : "images/Wooden_Spike_Wall.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 1918,
-		"imageY" : 0,
+		"imageX" : 1346,
+		"imageY" : 1416,
 		"image" : null
 	},
 	{
@@ -420,8 +420,8 @@
 		"imageURL" : "images/Wooden_Wall_Sign.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 0,
-		"imageY" : 0,
+		"imageX" : 1668,
+		"imageY" : 1471,
 		"image" : null
 	},
 	{
@@ -539,8 +539,8 @@
 		"imageURL" : "images/Wooden_Chair.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 0,
-		"imageY" : 0,
+		"imageX" : 1472,
+		"imageY" : 1469,
 		"image" : null
 	},
 	{
@@ -556,8 +556,8 @@
 		"imageURL" : "images/Painting_Canvas.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 0,
-		"imageY" : 0,
+		"imageX" : 1729,
+		"imageY" : 1469,
 		"image" : null
 	},
 	{
@@ -573,8 +573,8 @@
 		"imageURL" : "images/Wooden_Railing.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 1127,
-		"imageY" : 105,
+		"imageX" : 1072,
+		"imageY" : 102,
 		"image" : null
 	},
 	{
@@ -590,8 +590,8 @@
 		"imageURL" : "images/Wooden_Cage.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 0,
-		"imageY" : 0,
+		"imageX" : 1124,
+		"imageY" : 44,
 		"image" : null
 	},
 	{
@@ -607,8 +607,8 @@
 		"imageURL" : "images/Large_Storage_Box.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 134,
-		"imageY" : 548,
+		"imageX" : 1925,
+		"imageY" : 1404,
 		"image" : null
 	},
 	{
@@ -692,8 +692,8 @@
 		"imageURL" : "images/Compost_Bin.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 281,
-		"imageY" : 453,
+		"imageX" : 1982,
+		"imageY" : 1342,
 		"image" : null
 	},
 	{
@@ -709,25 +709,25 @@
 		"imageURL" : "images/Stone_Fence_Foundation.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 1160,
-		"imageY" : 231,
+		"imageX" : 1134,
+		"imageY" : 190,
 		"image" : null
 	},
 	{
-		"id" : 310,
+		"id" : 311,
 		"name" : "Stone Wall",
 		"type" : "structures",
 		"health" : 10000,
 		"requiredLevel" : 15,
 		"engramPoints" : 8,
 		"prerequisites" : [["structures",93]],
-		"unlocks" : [["structures",6018],["structures",179],["structures","Sloped Greenhouse Wall Left"],["structures","Sloped Greenhouse Wall Right"],["structures",401],["structures",402],["structures",322],["structures","Stone Fireplace"],["structures",6013],["structures",323]],
+		"unlocks" : [["structures",6018],["structures",179],["structures", 6026],["structures", 6027],["structures", 401],["structures", 402],["structures", 322],["structures", 6016],["structures",6013],["structures",323]],
 		"unlocksLines" : [],
 		"imageURL" : "images/Stone_Wall.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 1160,
-		"imageY" : 231,
+		"imageX" : 1311,
+		"imageY" : 186,
 		"image" : null
 	},
 	{
@@ -754,14 +754,14 @@
 		"health" : 3000,
 		"requiredLevel" : 15,
 		"engramPoints" : 4,
-		"prerequisites" : [["resource",97]],
+		"prerequisites" : [["structures",97]],
 		"unlocks" : [["structures",243]],
 		"unlocksLines" : [],
 		"imageURL" : "images/Wooden_Billboard.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 0,
-		"imageY" : 0,
+		"imageX" : 1726,
+		"imageY" : 1411,
 		"image" : null
 	},
 	{
@@ -777,8 +777,8 @@
 		"imageURL" : "images/Dinosaur_Gateway.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 1160,
-		"imageY" : 231,
+		"imageX" : 1109,
+		"imageY" : 506,
 		"image" : null
 	},
 	{
@@ -794,12 +794,29 @@
 		"imageURL" : "images/Dinosaur_Gate.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 1160,
-		"imageY" : 231,
+		"imageX" : 1109,
+		"imageY" : 506,
 		"image" : null
 	},
 	{
 		"id" : 91,
+		"name" : "Wooden Ramp",
+		"type" : "structures",
+		"health" : 10000,
+		"requiredLevel" : 15,
+		"engramPoints" : 3,
+		"prerequisites" : [["resource",85]],
+		"unlocks" : [["structures",177]],
+		"unlocksLines" : [],
+		"imageURL" : "images/Wooden_Ramp.png",
+		"imageHeight" : 256,
+		"imageWidth" : 256,
+		"imageX" : 1908,
+		"imageY" : 105,
+		"image" : null
+	},
+	{
+		"id" : 90,
 		"name" : "Wooden Pillar",
 		"type" : "structures",
 		"health" : 6250,
@@ -845,8 +862,8 @@
 		"imageURL" : "images/Wooden_Ladder.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 1160,
-		"imageY" : 231,
+		"imageX" : 1408,
+		"imageY" : 1364,
 		"image" : null
 	},
 	{
@@ -862,8 +879,8 @@
 		"imageURL" : "images/Feeding_Trough.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 0,
-		"imageY" : 0,
+		"imageX" : 593,
+		"imageY" : 444,
 		"image" : null
 	},
 	{
@@ -873,14 +890,14 @@
 		"health" : 500,
 		"requiredLevel" : 15,
 		"engramPoints" : 10,
-		"prerequisites" : [["resource",6005]],
+		"prerequisites" : [["structures",6005]],
 		"unlocks" : [],
 		"unlocksLines" : [],
 		"imageURL" : "images/Wooden_Bench.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 1160,
-		"imageY" : 231,
+		"imageX" : 1469,
+		"imageY" : 1411,
 		"image" : null
 	},
 	{
@@ -890,14 +907,14 @@
 		"health" : 500,
 		"requiredLevel" : 15,
 		"engramPoints" : 10,
-		"prerequisites" : [["resource",6005]],
+		"prerequisites" : [["structures",6005]],
 		"unlocks" : [],
 		"unlocksLines" : [],
 		"imageURL" : "images/Wooden_Table.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 1160,
-		"imageY" : 231,
+		"imageX" : 1467,
+		"imageY" : 1359,
 		"image" : null
 	},
 	{
@@ -913,8 +930,8 @@
 		"imageURL" : "images/Trophy_Base.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 1160,
-		"imageY" : 231,
+		"imageX" : 1598,
+		"imageY" : 1469,
 		"image" : null
 	},
 	{
@@ -930,8 +947,8 @@
 		"imageURL" : "images/Trophy_Wall-Mount.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 1160,
-		"imageY" : 231,
+		"imageX" : 1726,
+		"imageY" : 1348,
 		"image" : null
 	},
 	{
@@ -947,8 +964,8 @@
 		"imageURL" : "images/Preserving_Bin.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 192,
-		"imageY" : 569,
+		"imageX" : 1980,
+		"imageY" : 1404,
 		"image" : null
 	},
 	{
@@ -964,8 +981,8 @@
 		"imageURL" : "images/Wooden_Catwalk.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 1160,
-		"imageY" : 231,
+		"imageX" : 1969,
+		"imageY" : 106,
 		"image" : null
 	},
 	{
@@ -1015,8 +1032,8 @@
 		"imageURL" : "images/Stone_Foundation.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 1160,
-		"imageY" : 231,
+		"imageX" : 1199,
+		"imageY" : 197,
 		"image" : null
 	},
 	{
@@ -1027,13 +1044,13 @@
 		"requiredLevel" : 20,
 		"engramPoints" : 6,
 		"prerequisites" : [["structures",85]],
-		"unlocks" : [["structures","Greenhouse Ceiling"],["structures",168],["structures",400],["structures",316]],
+		"unlocks" : [["structures", 6019],["structures",168],["structures",400],["structures",316]],
 		"unlocksLines" : [],
 		"imageURL" : "images/Stone_Ceiling.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 1160,
-		"imageY" : 231,
+		"imageX" : 1435,
+		"imageY" : 193,
 		"image" : null
 	},
 	{
@@ -1049,8 +1066,8 @@
 		"imageURL" : "images/Sloped_Stone_Wall_Left.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 1160,
-		"imageY" : 231,
+		"imageX" : 1249,
+		"imageY" : 186,
 		"image" : null
 	},
 	{
@@ -1066,8 +1083,8 @@
 		"imageURL" : "images/Sloped_Stone_Wall_Right.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 1160,
-		"imageY" : 231,
+		"imageX" : 1374,
+		"imageY" : 188,
 		"image" : null
 	},
 	{
@@ -1078,13 +1095,13 @@
 		"requiredLevel" : 20,
 		"engramPoints" : 4,
 		"prerequisites" : [["structures",6001],["structures",315]],
-		"unlocks" : [["structures","Sloped Greenhouse Roof"],["structures",6017]],
+		"unlocks" : [["structures", 6025],["structures",6017]],
 		"unlocksLines" : [],
 		"imageURL" : "images/Sloped_Stone_Roof.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 1160,
-		"imageY" : 231,
+		"imageX" : 1503,
+		"imageY" : 191,
 		"image" : null
 	},
 	{
@@ -1095,13 +1112,13 @@
 		"requiredLevel" : 20,
 		"engramPoints" : 6,
 		"prerequisites" : [["structures",94],["structures",311]],
-		"unlocks" : [["structures","Greenhouse Door"],["structures","Greenhouse Doorframe"],["structures",180],["structures",317],["structures",320]],
+		"unlocks" : [["structures", 6021],["structures",6020],["structures",180],["structures",317],["structures",320]],
 		"unlocksLines" : [],
 		"imageURL" : "images/Stone_Doorframe.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 1160,
-		"imageY" : 231,
+		"imageX" : 1559,
+		"imageY" : 189,
 		"image" : null
 	},
 	{
@@ -1117,8 +1134,8 @@
 		"imageURL" : "images/Reinforced_Wooden_Door.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 1160,
-		"imageY" : 231,
+		"imageX" : 1615,
+		"imageY" : 184,
 		"image" : null
 	},
 	{
@@ -1134,8 +1151,8 @@
 		"imageURL" : "images/Stone_Dinosaur_Gateway.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 1160,
-		"imageY" : 231,
+		"imageX" : 1109,
+		"imageY" : 506,
 		"image" : null
 	},
 	{
@@ -1151,8 +1168,8 @@
 		"imageURL" : "images/Reinforced_Dinosaur_Gate.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 1160,
-		"imageY" : 231,
+		"imageX" : 1109,
+		"imageY" : 506,
 		"image" : null
 	},
 	{
@@ -1168,8 +1185,8 @@
 		"imageURL" : "images/Bookshelf.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 134,
-		"imageY" : 610,
+		"imageX" : 1982,
+		"imageY" : 1473,
 		"image" : null
 	},
 	{
@@ -1185,8 +1202,8 @@
 		"imageURL" : "images/Stone_Railing.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 1160,
-		"imageY" : 231,
+		"imageX" : 1071,
+		"imageY" : 190,
 		"image" : null
 	},
 	{
@@ -1202,8 +1219,8 @@
 		"imageURL" : "images/Metal_Spike_Wall.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 1986,
-		"imageY" : 0,
+		"imageX" : 1345,
+		"imageY" : 1364,
 		"image" : null
 	},
 	{
@@ -1236,8 +1253,8 @@
 		"imageURL" : "images/Metal_Sign.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 0,
-		"imageY" : 0,
+		"imageX" : 1592,
+		"imageY" : 1352,
 		"image" : null
 	},
 	{
@@ -1253,8 +1270,8 @@
 		"imageURL" : "images/Stone_Pillar.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 1160,
-		"imageY" : 231,
+		"imageX" : 1909,
+		"imageY" : 181,
 		"image" : null
 	},
 	{
@@ -1270,8 +1287,8 @@
 		"imageURL" : "images/Stone_Hatchframe.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 1160,
-		"imageY" : 231,
+		"imageX" : 1782,
+		"imageY" : 183,
 		"image" : null
 	},
 	{
@@ -1287,25 +1304,8 @@
 		"imageURL" : "images/Stone_Windowframe.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 1160,
-		"imageY" : 231,
-		"image" : null
-	},
-	{
-		"id" : 316,
-		"name" : "Stone Windowframe",
-		"type" : "structures",
-		"health" : 10000,
-		"requiredLevel" : 25,
-		"engramPoints" : 11,
-		"prerequisites" : [["structures",311],["structures",95]],
-		"unlocks" : [["structures",181],["structures",357]],
-		"unlocksLines" : [],
-		"imageURL" : "images/Stone_Windowframe.png",
-		"imageHeight" : 256,
-		"imageWidth" : 256,
-		"imageX" : 1160,
-		"imageY" : 231,
+		"imageX" : 1672,
+		"imageY" : 186,
 		"image" : null
 	},
 	{
@@ -1338,8 +1338,8 @@
 		"imageURL" : "images/Wall_Torch.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 0,
-		"imageY" : 0,
+		"imageX" : 1735,
+		"imageY" : 1164,
 		"image" : null
 	},
 	{
@@ -1355,8 +1355,8 @@
 		"imageURL" : "images/Behemoth_Stone_Dinosaur_Gateway.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 1160,
-		"imageY" : 231,
+		"imageX" : 1109,
+		"imageY" : 506,
 		"image" : null
 	},
 	{
@@ -1372,8 +1372,8 @@
 		"imageURL" : "images/Behemoth_Reinforced_Dinosaur_Gate.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 1160,
-		"imageY" : 231,
+		"imageX" : 1109,
+		"imageY" : 506,
 		"image" : null
 	},
 	{
@@ -1389,8 +1389,8 @@
 		"imageURL" : "images/Reinforced_Trapdoor.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 1160,
-		"imageY" : 231,
+		"imageX" : 1854,
+		"imageY" : 180,
 		"image" : null
 	},
 	{
@@ -1401,13 +1401,13 @@
 		"requiredLevel" : 30,
 		"engramPoints" : 10,
 		"prerequisites" : [["structures",323],["structures",96]],
-		"unlocks" : [["structures","Greenhouse Window"],["structures",182]],
+		"unlocks" : [["structures", 6022],["structures",182]],
 		"unlocksLines" : [],
 		"imageURL" : "images/Reinforced_Window.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 1160,
-		"imageY" : 231,
+		"imageX" : 1728,
+		"imageY" : 183,
 		"image" : null
 	},
 	{
@@ -1423,8 +1423,8 @@
 		"imageURL" : "images/Metal_Wall_Sign.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 0,
-		"imageY" : 0,
+		"imageX" : 1593,
+		"imageY" : 1409,
 		"image" : null
 	},
 	{
@@ -1440,8 +1440,8 @@
 		"imageURL" : "images/Metal_Foundation.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 1160,
-		"imageY" : 231,
+		"imageX" : 1193,
+		"imageY" : 275,
 		"image" : null
 	},
 	{
@@ -1457,8 +1457,8 @@
 		"imageURL" : "images/Metal_Wall.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 1160,
-		"imageY" : 231,
+		"imageX" : 1312,
+		"imageY" : 271,
 		"image" : null
 	},
 	{
@@ -1474,12 +1474,12 @@
 		"imageURL" : "images/Sloped_Metal_Wall_Left.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 1160,
-		"imageY" : 231,
+		"imageX" : 1249,
+		"imageY" : 274,
 		"image" : null
 	},
 	{
-		"id" : 404,
+		"id" : 405,
 		"name" : "Sloped Metal Wall Right",
 		"type" : "structures",
 		"health" : 10000,
@@ -1491,8 +1491,8 @@
 		"imageURL" : "images/Sloped_Metal_Wall_Right.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 1160,
-		"imageY" : 231,
+		"imageX" : 1379,
+		"imageY" : 270,
 		"image" : null
 	},
 	{
@@ -1508,8 +1508,8 @@
 		"imageURL" : "images/Metal_Doorframe.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 1160,
-		"imageY" : 231,
+		"imageX" : 1560,
+		"imageY" : 272,
 		"image" : null
 	},
 	{
@@ -1525,8 +1525,8 @@
 		"imageURL" : "images/Metal_Railing.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 1160,
-		"imageY" : 231,
+		"imageX" : 1073,
+		"imageY" : 273,
 		"image" : null
 	},
 	{
@@ -1536,14 +1536,14 @@
 		"health" : 100,
 		"requiredLevel" : 30,
 		"engramPoints" : 15,
-		"prerequisites" : [["structures",39],["structures",311]],
+		"prerequisites" : [["cooking",39],["structures",311]],
 		"unlocks" : [],
 		"unlocksLines" : [],
 		"imageURL" : "images/Stone_Fireplace.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 1160,
-		"imageY" : 231,
+		"imageX" : 1531,
+		"imageY" : 1466,
 		"image" : null
 	},
 	{
@@ -1576,8 +1576,8 @@
 		"imageURL" : "images/Metal_Pillar.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 1160,
-		"imageY" : 231,
+		"imageX" : 1909,
+		"imageY" : 267,
 		"image" : null
 	},
 	{
@@ -1593,8 +1593,8 @@
 		"imageURL" : "images/Metal_Ceiling.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 1160,
-		"imageY" : 231,
+		"imageX" : 1435,
+		"imageY" : 273,
 		"image" : null
 	},
 	{
@@ -1610,8 +1610,8 @@
 		"imageURL" : "images/Sloped_Metal_Roof.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 1160,
-		"imageY" : 231,
+		"imageX" : 1500,
+		"imageY" : 278,
 		"image" : null
 	},
 	{
@@ -1627,8 +1627,8 @@
 		"imageURL" : "images/Metal_Door.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 1160,
-		"imageY" : 231,
+		"imageX" : 1613,
+		"imageY" : 269,
 		"image" : null
 	},
 	{
@@ -1644,8 +1644,8 @@
 		"imageURL" : "images/Metal_Ramp.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 1160,
-		"imageY" : 231,
+		"imageX" : 1961,
+		"imageY" : 267,
 		"image" : null
 	},
 	{
@@ -1712,8 +1712,8 @@
 		"imageURL" : "images/Metal_Hatchframe.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 1160,
-		"imageY" : 231,
+		"imageX" : 1784,
+		"imageY" : 270,
 		"image" : null
 	},
 	{
@@ -1729,8 +1729,8 @@
 		"imageURL" : "images/Metal_Trapdoor.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 1160,
-		"imageY" : 231,
+		"imageX" : 1852,
+		"imageY" : 271,
 		"image" : null
 	},
 	{
@@ -1746,8 +1746,8 @@
 		"imageURL" : "images/Metal_Fence_Foundation.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 1160,
-		"imageY" : 231,
+		"imageX" : 1134,
+		"imageY" : 275,
 		"image" : null
 	},
 	{
@@ -1763,8 +1763,8 @@
 		"imageURL" : "images/Metal_Dinosaur_Gateway.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 1160,
-		"imageY" : 231,
+		"imageX" : 1109,
+		"imageY" : 506,
 		"image" : null
 	},
 	{
@@ -1780,8 +1780,8 @@
 		"imageURL" : "images/Metal_Dinosaur_Gate.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 1160,
-		"imageY" : 231,
+		"imageX" : 1109,
+		"imageY" : 506,
 		"image" : null
 	},
 	{
@@ -1797,8 +1797,8 @@
 		"imageURL" : "images/Metal_Irrigation_Pipe_-_Intersection.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 1160,
-		"imageY" : 231,
+		"imageX" : 408,
+		"imageY" : 674,
 		"image" : null
 	},
 	{
@@ -1814,8 +1814,8 @@
 		"imageURL" : "images/Metal_Irrigation_Pipe_-_Inclined.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 1160,
-		"imageY" : 231,
+		"imageX" : 326,
+		"imageY" : 670,
 		"image" : null
 	},
 	{
@@ -1831,8 +1831,8 @@
 		"imageURL" : "images/Metal_Irrigation_Pipe_-_Tap.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 1160,
-		"imageY" : 231,
+		"imageX" : 584,
+		"imageY" : 607,
 		"image" : null
 	},
 	{
@@ -1843,13 +1843,13 @@
 		"requiredLevel" : 45,
 		"engramPoints" : 20,
 		"prerequisites" : [["structures",6008]],
-		"unlocks" : [["weapons", "Homing Underwater Mine"], ["armoar", 387], ["tools",392]],
+		"unlocks" : [["weapons", "Homing Underwater Mine"], ["armor", 387], ["tools",392]],
 		"unlocksLines" : [],
-		"imageURL" : "images/Metal_Irrigation_Pipe_-_Tap.png",
+		"imageURL" : "images/Metal_Water_Reservoir.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 1160,
-		"imageY" : 231,
+		"imageX" : 533,
+		"imageY" : 367,
 		"image" : null
 	},
 	{
@@ -1865,8 +1865,8 @@
 		"imageURL" : "images/Metal_Windowframe.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 1160,
-		"imageY" : 231,
+		"imageX" : 1671,
+		"imageY" : 269,
 		"image" : null
 	},
 	{
@@ -1882,8 +1882,8 @@
 		"imageURL" : "images/Metal_Ladder.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 1160,
-		"imageY" : 231,
+		"imageX" : 1410,
+		"imageY" : 1417,
 		"image" : null
 	},
 	{
@@ -1899,8 +1899,8 @@
 		"imageURL" : "images/Greenhouse_Wall.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 1160,
-		"imageY" : 231,
+		"imageX" : 1627,
+		"imageY" : 787,
 		"image" : null
 	},
 	{
@@ -1916,8 +1916,8 @@
 		"imageURL" : "images/Greenhouse_Ceiling.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 1160,
-		"imageY" : 231,
+		"imageX" : 1627,
+		"imageY" : 787,
 		"image" : null
 	},
 	{
@@ -1933,8 +1933,8 @@
 		"imageURL" : "images/Greenhouse_Doorframe.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 1160,
-		"imageY" : 231,
+		"imageX" : 1627,
+		"imageY" : 787,
 		"image" : null
 	},
 	{
@@ -1950,8 +1950,8 @@
 		"imageURL" : "images/Greenhouse_Door.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 1160,
-		"imageY" : 231,
+		"imageX" : 1627,
+		"imageY" : 787,
 		"image" : null
 	},
 	{
@@ -1967,8 +1967,8 @@
 		"imageURL" : "images/Greenhouse_Window.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 1160,
-		"imageY" : 231,
+		"imageX" : 1627,
+		"imageY" : 787,
 		"image" : null
 	},
 	{
@@ -1984,8 +1984,8 @@
 		"imageURL" : "images/Metal_Billboard.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 1160,
-		"imageY" : 231,
+		"imageX" : 1666,
+		"imageY" : 1413,
 		"image" : null
 	},
 	{
@@ -2001,25 +2001,8 @@
 		"imageURL" : "images/Metal_Window.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 1160,
-		"imageY" : 231,
-		"image" : null
-	},
-	{
-		"id" : 182,
-		"name" : "Metal Window",
-		"type" : "structures",
-		"health" : 6250,
-		"requiredLevel" : 50,
-		"engramPoints" : 18,
-		"prerequisites" : [["structures",357],["structures",181]],
-		"unlocks" : [],
-		"unlocksLines" : [],
-		"imageURL" : "images/Metal_Window.png",
-		"imageHeight" : 256,
-		"imageWidth" : 256,
-		"imageX" : 1160,
-		"imageY" : 231,
+		"imageX" : 1729,
+		"imageY" : 275,
 		"image" : null
 	},
 	{
@@ -2035,12 +2018,12 @@
 		"imageURL" : "images/Metal_Catwalk.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 1160,
-		"imageY" : 231,
+		"imageX" : 1964,
+		"imageY" : 219,
 		"image" : null
 	},
 	{
-		"id" : 189,
+		"id" : 198,
 		"name" : "Electrical Generator",
 		"type" : "structures",
 		"health" : 1000,
@@ -2052,8 +2035,8 @@
 		"imageURL" : "images/Electrical_Generator.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 1160,
-		"imageY" : 231,
+		"imageX" : 1798,
+		"imageY" : 1219,
 		"image" : null
 	},
 	{
@@ -2069,8 +2052,8 @@
 		"imageURL" : "images/Straight_Electrical_Cable.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 1160,
-		"imageY" : 231,
+		"imageX" : 1919,
+		"imageY" : 1218,
 		"image" : null
 	},
 	{
@@ -2086,8 +2069,8 @@
 		"imageURL" : "images/Electrical_Outlet.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 1160,
-		"imageY" : 231,
+		"imageX" : 1976,
+		"imageY" : 1218,
 		"image" : null
 	},
 	{
@@ -2103,8 +2086,8 @@
 		"imageURL" : "images/Remote_Keypad.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 1160,
-		"imageY" : 231,
+		"imageX" : 170,
+		"imageY" : 1054,
 		"image" : null
 	},
 	{
@@ -2120,8 +2103,8 @@
 		"imageURL" : "images/Omnidirectional_Lamppost.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 1160,
-		"imageY" : 231,
+		"imageX" : 1735,
+		"imageY" : 1281,
 		"image" : null
 	},
 	{
@@ -2137,8 +2120,8 @@
 		"imageURL" : "images/Lamppost.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 1160,
-		"imageY" : 231,
+		"imageX" : 1799,
+		"imageY" : 1162,
 		"image" : null
 	},
 	{
@@ -2154,8 +2137,8 @@
 		"imageURL" : "images/War_Map.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 1160,
-		"imageY" : 231,
+		"imageX" : 662,
+		"imageY" : 25,
 		"image" : null
 	},
 	{
@@ -2171,8 +2154,8 @@
 		"imageURL" : "images/Greenhouse_Roof.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 1160,
-		"imageY" : 231,
+		"imageX" : 1627,
+		"imageY" : 787,
 		"image" : null
 	},
 	{
@@ -2188,8 +2171,8 @@
 		"imageURL" : "images/Greenhouse_Wall_Sloped_Left.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 1160,
-		"imageY" : 231,
+		"imageX" : 1627,
+		"imageY" : 787,
 		"image" : null
 	},
 	{
@@ -2205,8 +2188,8 @@
 		"imageURL" : "images/Greenhouse_Wall_Sloped_Right.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 1160,
-		"imageY" : 231,
+		"imageX" : 1627,
+		"imageY" : 787,
 		"image" : null
 	},
 	{
@@ -2222,8 +2205,8 @@
 		"imageURL" : "images/Inclined_Electrical_Cable.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 1160,
-		"imageY" : 231,
+		"imageX" : 1976,
+		"imageY" : 1274,
 		"image" : null
 	},
 	{
@@ -2239,8 +2222,8 @@
 		"imageURL" : "images/Vertical_Electrical_Cable.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 1160,
-		"imageY" : 231,
+		"imageX" : 1976,
+		"imageY" : 1164,
 		"image" : null
 	},
 	{
@@ -2256,8 +2239,8 @@
 		"imageURL" : "images/Electrical_Cable_Intersection.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 1160,
-		"imageY" : 231,
+		"imageX" : 1919,
+		"imageY" : 1275,
 		"image" : null
 	},
 	{
@@ -2273,8 +2256,8 @@
 		"imageURL" : "images/Refrigerator.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 1160,
-		"imageY" : 231,
+		"imageX" : 1926,
+		"imageY" : 1473,
 		"image" : null
 	},
 	{
@@ -2290,8 +2273,8 @@
 		"imageURL" : "images/Air_Conditioner.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 1160,
-		"imageY" : 231,
+		"imageX" : 1861,
+		"imageY" : 1473,
 		"image" : null
 	},
 	{
@@ -2341,8 +2324,8 @@
 		"imageURL" : "images/Bunk_Bed.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 1160,
-		"imageY" : 231,
+		"imageX" : 1794,
+		"imageY" : 1472,
 		"image" : null
 	},
 	{
@@ -2358,8 +2341,8 @@
 		"imageURL" : "images/Vault.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 1160,
-		"imageY" : 231,
+		"imageX" : 1856,
+		"imageY" : 1404,
 		"image" : null
 	},
 	{
@@ -2375,8 +2358,8 @@
 		"imageURL" : "images/Elevator_Track.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 1160,
-		"imageY" : 231,
+		"imageX" : 1800,
+		"imageY" : 1279,
 		"image" : null
 	},
 	{
@@ -2392,8 +2375,8 @@
 		"imageURL" : "images/Small_Elevator_Platform.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 1160,
-		"imageY" : 231,
+		"imageX" : 1854,
+		"imageY" : 1171,
 		"image" : null
 	},
 	{
@@ -2409,8 +2392,8 @@
 		"imageURL" : "images/Medium_Elevator_Platform.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 1160,
-		"imageY" : 231,
+		"imageX" : 1855,
+		"imageY" : 1224,
 		"image" : null
 	},
 	{
@@ -2426,8 +2409,8 @@
 		"imageURL" : "images/Large_Elevator_Platform.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 1160,
-		"imageY" : 231,
+		"imageX" : 1856,
+		"imageY" : 1279,
 		"image" : null
 	}
 ]
