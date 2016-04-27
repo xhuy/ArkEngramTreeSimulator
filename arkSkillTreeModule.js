@@ -400,6 +400,7 @@ var arkSkillTreeModule = (function() {
 				arkSkillTreeModule.drawLines(structureItems);
 				arkSkillTreeModule.drawLines(toolsItems);
 				arkSkillTreeModule.drawLines(weaponsItems);
+				arkSkillTreeModule.drawLines(saddleItems);
 			}
 
 		},

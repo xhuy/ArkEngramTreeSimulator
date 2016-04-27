@@ -12,8 +12,8 @@
 		"imageURL" : "images/Spear.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 3,
-		"imageY" : 306,
+		"imageX" : 182,
+		"imageY" : 843,
 		"image" : null
 	},
 	{
@@ -24,13 +24,13 @@
 		"requiredLevel" : 3,
 		"engramPoints" : 4,
 		"prerequisites" : [],
-		"unlocks" : [["weapons","Metal Sword"]],
+		"unlocks" : [["weapons", 171]],
 		"unlocksLines" : [],
 		"imageURL" : "images/Wooden_Club.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 3,
-		"imageY" : 306,
+		"imageX" : 131,
+		"imageY" : 851,
 		"image" : null
 	},
 	{
@@ -46,8 +46,8 @@
 		"imageURL" : "images/Slingshot.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 3,
-		"imageY" : 306,
+		"imageX" : 230,
+		"imageY" : 614,
 		"image" : null
 	},
 	{
@@ -63,8 +63,8 @@
 		"imageURL" : "images/Bow.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 3,
-		"imageY" : 306,
+		"imageX" : 186,
+		"imageY" : 616,
 		"image" : null
 	},
 	{
@@ -75,13 +75,13 @@
 		"requiredLevel" : 15,
 		"engramPoints" : 2,
 		"prerequisites" : [],
-		"unlocks" : [["weapons","Grappling Hook"],["weapons",70],["weapons","Tranquilizer Dart"]],
+		"unlocks" : [["weapons", 8005],["weapons",70],["weapons", 8006]],
 		"unlocksLines" : [],
 		"imageURL" : "images/Stone_Arrow.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 3,
-		"imageY" : 306,
+		"imageX" : 140,
+		"imageY" : 620,
 		"image" : null
 	},
 	{
@@ -97,8 +97,8 @@
 		"imageURL" : "images/Tranquilizer_Arrow.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 3,
-		"imageY" : 306,
+		"imageX" : 93,
+		"imageY" : 620,
 		"image" : null
 	},
 	{
@@ -114,8 +114,8 @@
 		"imageURL" : "images/Tripwire_Alarm_Trap.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 3,
-		"imageY" : 306,
+		"imageX" : 180,
+		"imageY" : 190,
 		"image" : null
 	},
 	{
@@ -131,8 +131,8 @@
 		"imageURL" : "images/Pike.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 3,
-		"imageY" : 306,
+		"imageX" : 181,
+		"imageY" : 889,
 		"image" : null
 	},
 	{
@@ -143,13 +143,13 @@
 		"requiredLevel" : 25,
 		"engramPoints" : 12,
 		"prerequisites" : [["weapons",5]],
-		"unlocks" : [["weapons","Grappling Hook"]],
+		"unlocks" : [["weapons", 8005]],
 		"unlocksLines" : [],
 		"imageURL" : "images/Crossbow.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 3,
-		"imageY" : 306,
+		"imageX" : 186,
+		"imageY" : 667,
 		"image" : null
 	},
 	{
@@ -165,8 +165,8 @@
 		"imageURL" : "images/Tripwire_Narcotic_Trap.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 3,
-		"imageY" : 306,
+		"imageX" : 228,
+		"imageY" : 192,
 		"image" : null
 	},
 	{
@@ -182,8 +182,8 @@
 		"imageURL" : "images/Bear_Trap.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 3,
-		"imageY" : 306,
+		"imageX" : 178,
+		"imageY" : 129,
 		"image" : null
 	},
 	{
@@ -199,8 +199,8 @@
 		"imageURL" : "images/Large_Bear_Trap.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 3,
-		"imageY" : 306,
+		"imageX" : 118,
+		"imageY" : 129,
 		"image" : null
 	},
 	{
@@ -233,8 +233,8 @@
 		"imageURL" : "images/Smoke_Grenade.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 274,
-		"imageY" : 132,
+		"imageX" : 306,
+		"imageY" : 129,
 		"image" : null
 	},
 	{
@@ -245,17 +245,17 @@
 		"requiredLevel" : 25,
 		"engramPoints" : 25,
 		"prerequisites" : [],
-		"unlocks" : [["weapons", 8003]],
+		"unlocks" : [["weapons", 8004]],
 		"unlocksLines" : [],
 		"imageURL" : "images/Ballista_Turret.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 3,
-		"imageY" : 306,
+		"imageX" : 62,
+		"imageY" : 255,
 		"image" : null
 	},
 	{
-		"id" : 8002,
+		"id" : 8003,
 		"name" : "Ballista Bolt",
 		"type" : "weapons",
 		"health" : 1,
@@ -267,25 +267,25 @@
 		"imageURL" : "images/Ballista_Bolt.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 3,
-		"imageY" : 306,
+		"imageX" : 58,
+		"imageY" : 208,
 		"image" : null
 	},
 	{
-		"id" : 8003,
+		"id" : 8004,
 		"name" : "Catapult Turret",
 		"type" : "weapons",
 		"health" : 7000,
 		"requiredLevel" : 30,
 		"engramPoints" : 25,
 		"prerequisites" : [["weapons", 8002]],
-		"unlocks" : [["weapons", "Minigun Turret"]],
+		"unlocks" : [["weapons", 8010],["weapons", 8012]],
 		"unlocksLines" : [],
 		"imageURL" : "images/Catapult_Turret.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 3,
-		"imageY" : 306,
+		"imageX" : 4,
+		"imageY" : 271,
 		"image" : null
 	},
 	{
@@ -301,8 +301,8 @@
 		"imageURL" : "images/Simple_Pistol.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 3,
-		"imageY" : 306,
+		"imageX" : 232,
+		"imageY" : 247,
 		"image" : null
 	},
 	{
@@ -318,8 +318,8 @@
 		"imageURL" : "images/Simple_Bullet.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 3,
-		"imageY" : 306,
+		"imageX" : 235,
+		"imageY" : 394,
 		"image" : null
 	},
 	{
@@ -335,7 +335,7 @@
 		"imageURL" : "images/Scope_Attachment.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 210,
+		"imageX" : 218,
 		"imageY" : 30,
 		"image" : null
 	},
@@ -352,8 +352,8 @@
 		"imageURL" : "images/Grenade.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 3,
-		"imageY" : 306,
+		"imageX" : 237,
+		"imageY" : 730,
 		"image" : null
 	},
 	{
@@ -369,8 +369,8 @@
 		"imageURL" : "images/Metal_Sword.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 3,
-		"imageY" : 306,
+		"imageX" : 131,
+		"imageY" : 899,
 		"image" : null
 	},
 	{
@@ -386,8 +386,8 @@
 		"imageURL" : "images/Longneck_Rifle.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 3,
-		"imageY" : 306,
+		"imageX" : 232,
+		"imageY" : 298,
 		"image" : null
 	},
 	{
@@ -398,13 +398,13 @@
 		"requiredLevel" : 35,
 		"engramPoints" : 6,
 		"prerequisites" : [["resource", 109]],
-		"unlocks" : [["weapons", 246],["weapons", "Advanced Sniper Bullet"],["weapons", "Tranquilizer Dart"]],
+		"unlocks" : [["weapons", 246],["weapons", 8007],["weapons", 8006]],
 		"unlocksLines" : [],
 		"imageURL" : "images/Simple_Rifle_Ammo.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 3,
-		"imageY" : 306,
+		"imageX" : 234,
+		"imageY" : 494,
 		"image" : null
 	},
 	{
@@ -420,8 +420,25 @@
 		"imageURL" : "images/Shotgun.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 3,
-		"imageY" : 306,
+		"imageX" : 232,
+		"imageY" : 346,
+		"image" : null
+	},
+	{
+		"id" : 268,
+		"name" : "Simple Shotgun Ammo",
+		"type" : "weapons",
+		"health" : 1,
+		"requiredLevel" : 35,
+		"engramPoints" : 18,
+		"prerequisites" : [["weapons", 4]],
+		"unlocks" : [],
+		"unlocksLines" : [],
+		"imageURL" : "images/Simple_Shotgun_Ammo.png",
+		"imageHeight" : 256,
+		"imageWidth" : 256,
+		"imageX" : 237,
+		"imageY" : 443,
 		"image" : null
 	},
 	{
@@ -437,8 +454,8 @@
 		"imageURL" : "images/Poison_Grenade.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 216,
-		"imageY" : 128,
+		"imageX" : 228,
+		"imageY" : 131,
 		"image" : null
 	},
 	{
@@ -454,8 +471,8 @@
 		"imageURL" : "images/Silencer_Attachment.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 152,
-		"imageY" : 32,
+		"imageX" : 111,
+		"imageY" : 30,
 		"image" : null
 	},
 	{
@@ -466,13 +483,13 @@
 		"requiredLevel" : 40,
 		"engramPoints" : 35,
 		"prerequisites" : [["weapons", 6]],
-		"unlocks" : [["weapons", 43],["weapons", "Homing Underwater Mine"]],
+		"unlocks" : [["weapons", 43],["weapons", 8008]],
 		"unlocksLines" : [],
 		"imageURL" : "images/Improvised_Explosive_Device.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 152,
-		"imageY" : 32,
+		"imageX" : 186,
+		"imageY" : 734,
 		"image" : null
 	},
 	{
@@ -488,8 +505,8 @@
 		"imageURL" : "images/Flashlight_Attachment.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 152,
-		"imageY" : 32,
+		"imageX" : 59,
+		"imageY" : 30,
 		"image" : null
 	},
 	{
@@ -505,8 +522,8 @@
 		"imageURL" : "images/Fabricated_Pistol.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 152,
-		"imageY" : 32,
+		"imageX" : 176,
+		"imageY" : 248,
 		"image" : null
 	},
 	{
@@ -522,8 +539,8 @@
 		"imageURL" : "images/Advanced_Bullet.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 152,
-		"imageY" : 32,
+		"imageX" : 182,
+		"imageY" : 394,
 		"image" : null
 	},
 	{
@@ -539,12 +556,12 @@
 		"imageURL" : "images/Pump-Action_Shotgun.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 152,
-		"imageY" : 32,
+		"imageX" : 179,
+		"imageY" : 345,
 		"image" : null
 	},
 	{
-		"id" : 8004,
+		"id" : 8005,
 		"name" : "Grappling Hook",
 		"type" : "weapons",
 		"health" : 1,
@@ -556,8 +573,8 @@
 		"imageURL" : "images/Grappling_Hook.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 152,
-		"imageY" : 32,
+		"imageX" : 140,
+		"imageY" : 671,
 		"image" : null
 	},
 	{
@@ -573,8 +590,8 @@
 		"imageURL" : "images/C4_Remote_Detonator.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 152,
-		"imageY" : 32,
+		"imageX" : 237,
+		"imageY" : 778,
 		"image" : null
 	},
 	{
@@ -590,8 +607,8 @@
 		"imageURL" : "images/C4_Charge.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 152,
-		"imageY" : 32,
+		"imageX" : 135,
+		"imageY" : 736,
 		"image" : null
 	},
 	{
@@ -607,8 +624,8 @@
 		"imageURL" : "images/Assault_Rifle.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 152,
-		"imageY" : 32,
+		"imageX" : 122,
+		"imageY" : 335,
 		"image" : null
 	},
 	{
@@ -624,8 +641,8 @@
 		"imageURL" : "images/Advanced_Rifle_Bullet.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 152,
-		"imageY" : 32,
+		"imageX" : 234,
+		"imageY" : 561,
 		"image" : null
 	},
 	{
@@ -641,8 +658,8 @@
 		"imageURL" : "images/Laser_Attachment.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 152,
-		"imageY" : 32,
+		"imageX" : 6,
+		"imageY" : 30,
 		"image" : null
 	},
 	{
@@ -658,8 +675,8 @@
 		"imageURL" : "images/Holo-Scope_Attachment.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 152,
-		"imageY" : 32,
+		"imageX" : 160,
+		"imageY" : 30,
 		"image" : null
 	},
 	{
@@ -670,13 +687,13 @@
 		"requiredLevel" : 60,
 		"engramPoints" : 32,
 		"prerequisites" : [["weapons", 132]],
-		"unlocks" : [["weapons", "Rocket Turret"]],	
+		"unlocks" : [["weapons", 8011]],	
 		"unlocksLines" : [],
 		"imageURL" : "images/Rocket_Launcher.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 152,
-		"imageY" : 32,
+		"imageX" : 154,
+		"imageY" : 296,
 		"image" : null
 	},
 	{
@@ -692,25 +709,8 @@
 		"imageURL" : "images/Rocket_Propelled_Grenade.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 152,
-		"imageY" : 32,
-		"image" : null
-	},
-	{
-		"id" : 247,
-		"name" : "Rocket Propelled Grenade",
-		"type" : "weapons",
-		"health" : 1,
-		"requiredLevel" : 60,
-		"engramPoints" : 8,
-		"prerequisites" : [["weapons", 6]],
-		"unlocks" : [],	
-		"unlocksLines" : [],
-		"imageURL" : "images/Rocket_Propelled_Grenade.png",
-		"imageHeight" : 256,
-		"imageWidth" : 256,
-		"imageX" : 152,
-		"imageY" : 32,
+		"imageX" : 188,
+		"imageY" : 551,
 		"image" : null
 	},
 	{
@@ -721,17 +721,17 @@
 		"requiredLevel" : 60,
 		"engramPoints" : 40,
 		"prerequisites" : [["weapons", 2]],
-		"unlocks" : [["weapons", "Minigun Turret"]],	
+		"unlocks" : [["weapons", 8010]],	
 		"unlocksLines" : [],
 		"imageURL" : "images/Auto_Turret.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 152,
-		"imageY" : 32,
+		"imageX" : 65,
+		"imageY" : 352,
 		"image" : null
 	},
 	{
-		"id" : 8005,
+		"id" : 8006,
 		"name" : "Tranquilizer Dart",
 		"type" : "weapons",
 		"health" : 1,
@@ -743,8 +743,8 @@
 		"imageURL" : "images/Tranquilizer_Dart.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 152,
-		"imageY" : 32,
+		"imageX" : 185,
+		"imageY" : 498,
 		"image" : null
 	},
 	{
@@ -760,8 +760,8 @@
 		"imageURL" : "images/Compound_Bow.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 152,
-		"imageY" : 32,
+		"imageX" : 89,
+		"imageY" : 674,
 		"image" : null
 	},
 	{
@@ -777,8 +777,8 @@
 		"imageURL" : "images/Metal_Arrow.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 152,
-		"imageY" : 32,
+		"imageX" : 36,
+		"imageY" : 674,
 		"image" : null
 	},
 	{
@@ -794,12 +794,12 @@
 		"imageURL" : "images/Fabricated_Sniper_Rifle.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 152,
-		"imageY" : 32,
+		"imageX" : 122,
+		"imageY" : 259,
 		"image" : null
 	},
 	{
-		"id" : 8006,
+		"id" : 8007,
 		"name" : "Advanced Sniper Bullet",
 		"type" : "weapons",
 		"health" : 1,
@@ -811,12 +811,12 @@
 		"imageURL" : "images/Advanced_Sniper_Bullet.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 152,
-		"imageY" : 32,
+		"imageX" : 183,
+		"imageY" : 447,
 		"image" : null
 	},
 	{
-		"id" : 8007,
+		"id" : 8008,
 		"name" : "Homing Underwater Mine",
 		"type" : "weapons",
 		"health" : 1,
@@ -828,12 +828,12 @@
 		"imageURL" : "images/Homing_Underwater_Mine.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 152,
-		"imageY" : 32,
+		"imageX" : 132,
+		"imageY" : 788,
 		"image" : null
 	},
 	{
-		"id" : 8008,
+		"id" : 8009,
 		"name" : "Electric Prod",
 		"type" : "weapons",
 		"health" : 1,
@@ -845,42 +845,76 @@
 		"imageURL" : "images/Electric_Prod.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 152,
-		"imageY" : 32,
+		"imageX" : 234,
+		"imageY" : 838,
 		"image" : null
 	},
 	{
-		"id" : 8009,
+		"id" : 8010,
 		"name" : "Minigun Turret",
 		"type" : "weapons",
 		"health" : 7000,
 		"requiredLevel" : 85,
 		"engramPoints" : 80,
-		"prerequisites" : [["weapons", 8003],["weapons", 197]],
-		"unlocks" : [["weapons", 8003]],	
+		"prerequisites" : [["weapons", 8004],["weapons", 197]],
+		"unlocks" : [["weapons", 8011]],	
 		"unlocksLines" : [],
 		"imageURL" : "images/Minigun_Turret.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 152,
-		"imageY" : 32,
+		"imageX" : 5,
+		"imageY" : 321,
 		"image" : null
 	},
 	{
-		"id" : 8010,
+		"id" : 8011,
 		"name" : "Rocket Turret",
 		"type" : "weapons",
 		"health" : 7000,
 		"requiredLevel" : 90,
 		"engramPoints" : 100,
-		"prerequisites" : [["weapons", 8009],["weapons", 3]],
+		"prerequisites" : [["weapons", 8010],["weapons", 3]],
 		"unlocks" : [],	
 		"unlocksLines" : [],
 		"imageURL" : "images/Rocket_Turret.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 152,
-		"imageY" : 32,
+		"imageX" : 63,
+		"imageY" : 304,
+		"image" : null
+	},
+	{
+		"id" : 8012,
+		"name" : "Primitive Cannon",
+		"type" : "weapons",
+		"health" : 5000,
+		"requiredLevel" : 35,
+		"engramPoints" : 25,
+		"prerequisites" : [["weapons", 8004]],
+		"unlocks" : [],	
+		"unlocksLines" : [],
+		"imageURL" : "images/Primitive_Cannon.png",
+		"imageHeight" : 256,
+		"imageWidth" : 256,
+		"imageX" : 5,
+		"imageY" : 207,
+		"image" : null
+	},
+	{
+		"id" : 8013,
+		"name" : "Cannon Ball",
+		"type" : "weapons",
+		"health" : 1,
+		"requiredLevel" : 35,
+		"engramPoints" : 5,
+		"prerequisites" : [],
+		"unlocks" : [],	
+		"unlocksLines" : [],
+		"imageURL" : "images/Cannon_Ball.png",
+		"imageHeight" : 256,
+		"imageWidth" : 256,
+		"imageX" : 5,
+		"imageY" : 157,
 		"image" : null
 	}
 ]

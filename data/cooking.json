@@ -12,8 +12,8 @@
 		"imageURL" : "images/Campfire.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 173,
-		"imageY" : 655,
+		"imageX" : 476,
+		"imageY" : 825,
 		"image" : null
 	},
 	{
@@ -29,8 +29,8 @@
 		"imageURL" : "images/Cooking_Pot.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 88,
-		"imageY" : 715,
+		"imageX" : 442,
+		"imageY" : 896,
 		"image" : null
 	},
 	{
@@ -46,8 +46,8 @@
 		"imageURL" : "images/Industrial_Grill.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 88,
-		"imageY" : 715,
+		"imageX" : 379,
+		"imageY" : 890,
 		"image" : null
 	},
 	{
@@ -63,8 +63,8 @@
 		"imageURL" : "images/Industrial_Cooker.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 88,
-		"imageY" : 715,
+		"imageX" : 443,
+		"imageY" : 962,
 		"image" : null
 	}
 ]

@@ -7,13 +7,13 @@
 		"requiredLevel" : 5,
 		"engramPoints" : 6,
 		"prerequisites" : [],
-		"unlocks" : [],
+		"unlocks" : [["crafting", 3002]],
 		"unlocksLines" : [],
 		"imageURL" : "images/Mortar_And_Pestle.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 701,
-		"imageY" : 290,
+		"imageX" : 371,
+		"imageY" : 826,
 		"image" : null
 	},
 	{
@@ -29,8 +29,8 @@
 		"imageURL" : "images/Refining_Forge.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 226,
-		"imageY" : 717,
+		"imageX" : 530,
+		"imageY" : 895,
 		"image" : null
 	},
 	{
@@ -41,13 +41,13 @@
 		"requiredLevel" : 25,
 		"engramPoints" : 16,
 		"prerequisites" : [],
-		"unlocks" : [["crafting", 383],["crafting", 5005],["crafting", 185]],
+		"unlocks" : [["crafting", 383],["saddle", 5005],["crafting", 185]],
 		"unlocksLines" : [],
 		"imageURL" : "images/Smithy.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 156,
-		"imageY" : 718,
+		"imageX" : 590,
+		"imageY" : 790,
 		"image" : null
 	},
 	{
@@ -58,13 +58,13 @@
 		"requiredLevel" : 40,
 		"engramPoints" : 24,
 		"prerequisites" : [["crafting", 126]],
-		"unlocks" : [["tools", 7004],["weapons", 376],["crafting", 3001],["crafting", 360],["armor", 1008],["armor", 388],["armor", 387],["tools", 392]],
+		"unlocks" : [["tools", 7004],["weapons", 376],["crafting", 3001],["crafting", 360],["armor", 1008],["armor", 388],["armor", 387],["tools", 392],["crafting", 3002]],
 		"unlocksLines" : [],
 		"imageURL" : "images/Fabricator.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 156,
-		"imageY" : 773,
+		"imageX" : 655,
+		"imageY" : 860,
 		"image" : null
 	},
 	{
@@ -80,8 +80,25 @@
 		"imageURL" : "images/Industrial_Forge.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 224,
-		"imageY" : 806,
+		"imageX" : 529,
+		"imageY" : 956,
+		"image" : null
+	},
+	{
+		"id" : 3002,
+		"name" : "Chemistry Bench",
+		"type" : "crafting",
+		"health" : 2500,
+		"requiredLevel" : 85,
+		"engramPoints" : 65,
+		"prerequisites" : [["structures", 6018],["crafting", 185],["crafting", 107]],
+		"unlocks" : [],
+		"unlocksLines" : [],
+		"imageURL" : "images/Chemistry_Bench.png",
+		"imageHeight" : 256,
+		"imageWidth" : 256,
+		"imageX" : 322,
+		"imageY" : 833,
 		"image" : null
 	}
 ]

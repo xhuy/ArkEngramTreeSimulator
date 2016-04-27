@@ -131,8 +131,8 @@
 		"imageURL" : "images/Flare_Gun.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 276,
-		"imageY" : 210,
+		"imageX" : 308,
+		"imageY" : 294,
 		"image" : null
 	},
 	{
@@ -160,13 +160,13 @@
 		"requiredLevel" : 10,
 		"engramPoints" : 2,
 		"prerequisites" : [],
-		"unlocks" : [["weapons", 138]],
+		"unlocks" : [["weapons", 168]],
 		"unlocksLines" : [],
 		"imageURL" : "images/Spyglass.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 271,
-		"imageY" : 32,
+		"imageX" : 304,
+		"imageY" : 31,
 		"image" : null
 	},
 	{
@@ -352,8 +352,8 @@
 		"imageURL" : "images/Transponder_Tracker.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 396,
-		"imageY" : 83,
+		"imageX" : 733,
+		"imageY" : 203,
 		"image" : null
 	},
 	{
@@ -369,8 +369,8 @@
 		"imageURL" : "images/Transponder_Node.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 396,
-		"imageY" : 83,
+		"imageX" : 729,
+		"imageY" : 152,
 		"image" : null
 	}
 ]

@@ -97,8 +97,8 @@
 		"imageURL" : "images/Wooden_Shield.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 4,
-		"imageY" : 82,
+		"imageX" : 134,
+		"imageY" : 948,
 		"image" : null
 	},
 	{
@@ -330,13 +330,13 @@
 		"requiredLevel" : 30,
 		"engramPoints" : 9,
 		"prerequisites" : [["armor",1001]],
-		"unlocks" : [["armor","Riot Shield"]],
+		"unlocks" : [["armor", 1009]],
 		"unlocksLines" : [],
 		"imageURL" : "images/Metal_Shield.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 1,
-		"imageY" : 145,
+		"imageX" : 181,
+		"imageY" : 948,
 		"image" : null
 	},
 	{
@@ -641,8 +641,8 @@
 		"imageURL" : "images/Riot_Shield.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 1,
-		"imageY" : 209,
+		"imageX" : 231,
+		"imageY" : 948,
 		"image" : null
 	},
 	{
