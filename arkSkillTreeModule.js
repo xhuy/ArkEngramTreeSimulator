@@ -115,7 +115,7 @@ var arkSkillTreeModule = (function() {
 			arkSkillTreeModule.canvas.on('object:moving', function(e) {
 				var image = e.target;
 				console.log("Element ID: " + image.id + ", Type: " + image.type
-						+ "X:" + image.left + ",Y:" + image.top);
+						+ ", X:" + image.left + ", Y:" + image.top);
 
 				var objectMoving = arkSkillTreeModule.findByIdOrName(
 						image.type, image.id);
@@ -154,13 +154,24 @@ var arkSkillTreeModule = (function() {
 				arkSkillTreeModule.canvas.renderAll();
 			});
 
-			arkSkillTreeModule.canvas.observe('mouse:over', function(e) {
-				// console.log("Everyday I'm hovering");
-				// arkSkillTreeModule.showImageTools(e.target);
-			});
-			arkSkillTreeModule.canvas.observe('mouse:out', function(e) {
-				$('#imageDialog').remove();
-			});
+			// When there is an event in the canvas
+//			arkSkillTreeModule.canvas.observe('mouse:down', function(e) {
+//				console.log(e);
+//				var image = e.target;
+//				console.log("Element ID: " + image.id + ", Type: " + image.type
+//						+ ", X:" + image.left + ", Y:" + image.top);
+//			});
+//			
+//			arkSkillTreeModule.canvas.on('mouse:over', function(e) {
+//				var image = e.target;
+//				console.log("Element ID: " + image.id + ", Type: " + image.type
+//						+ ", X:" + image.left + ", Y:" + image.top);
+//				// arkSkillTreeModule.showImageTools(e.target);
+//			});
+//			arkSkillTreeModule.canvas.on('mouse:out', function(e) {
+//				$('#imageDialog').remove();
+//				console.log("Hover out!");
+//			});
 
 		},
 
@@ -180,6 +191,7 @@ var arkSkillTreeModule = (function() {
 					image.left = value.imageX;
 					image.top = value.imageY;
 					image.hasControls = image.hasBorders = false;
+					image.selectable = true;
 					arkSkillTreeModule.canvas.add(image);
 				});
 			});
@@ -201,23 +213,19 @@ var arkSkillTreeModule = (function() {
 						coords.push(son.imageY + offsetLines);
 
 						var line = new fabric.Line(coords, {
-							fill : 'red',
-							stroke : 'red',
+							stroke : 'rgba(255, 0, 0, 0.1)',
 							strokeWidth : 5,
 							selectable : false
 						});
 
 						line.setGradient('fill', {
-						    type: 'radial',
-						    r1: line.width / 2,
-						    r2: 10,
-						    x1: 0,
+						    x1: -line.width / 2,
 						    y1: 0,
-						    x2: 0,
+						    x2: line.width / 2,
 						    y2: 0,
 						    colorStops: {
-						        0: '#FF4F4F',
-						        1: 'rgb(255, 239, 64)'
+						        0: 'black',
+						        1: 'red'
 						    }
 						});
 						

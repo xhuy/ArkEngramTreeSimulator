@@ -12,8 +12,8 @@
 		"imageURL" : "images/Phiomia_Saddle.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 11,
-		"imageY" : 1218,
+		"imageX" : 1268,
+		"imageY" : 781,
 		"image" : null
 	},
 	{
@@ -29,8 +29,8 @@
 		"imageURL" : "images/Parasaur_Saddle.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 65,
-		"imageY" : 1215,
+		"imageX" : 1323,
+		"imageY" : 777,
 		"image" : null
 	},
 	{
@@ -46,8 +46,8 @@
 		"imageURL" : "images/Ichthyosaurus_Saddle.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 118,
-		"imageY" : 1213,
+		"imageX" : 1376,
+		"imageY" : 779,
 		"image" : null
 	},
 	{
@@ -63,8 +63,8 @@
 		"imageURL" : "images/Pachy_Saddle.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 176,
-		"imageY" : 1208,
+		"imageX" : 1433,
+		"imageY" : 774,
 		"image" : null
 	},
 	{
@@ -80,8 +80,8 @@
 		"imageURL" : "images/Raptor_Saddle.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 228,
-		"imageY" : 1211,
+		"imageX" : 1486,
+		"imageY" : 777,
 		"image" : null
 	},
 	{
@@ -97,8 +97,8 @@
 		"imageURL" : "images/Trike_Saddle.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 280,
-		"imageY" : 1213,
+		"imageX" : 1540,
+		"imageY" : 779,
 		"image" : null
 	},
 	{
@@ -114,8 +114,8 @@
 		"imageURL" : "images/Pulmonoscorpius_Saddle.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 11,
-		"imageY" : 1272,
+		"imageX" : 1268,
+		"imageY" : 834,
 		"image" : null
 	},
 	{
@@ -131,8 +131,8 @@
 		"imageURL" : "images/Carbonemys_Saddle.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 61,
-		"imageY" : 1269,
+		"imageX" : 1319,
+		"imageY" : 835,
 		"image" : null
 	},
 	{
@@ -148,8 +148,8 @@
 		"imageURL" : "images/Beelzebufo_Saddle.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 113,
-		"imageY" : 1266,
+		"imageX" : 1371,
+		"imageY" : 831,
 		"image" : null
 	},
 	{
@@ -165,8 +165,8 @@
 		"imageURL" : "images/Terror_Bird_Saddle.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 170,
-		"imageY" : 1266,
+		"imageX" : 1428,
+		"imageY" : 832,
 		"image" : null
 	},
 	{
@@ -182,8 +182,8 @@
 		"imageURL" : "images/Stego_Saddle.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 221,
-		"imageY" : 1264,
+		"imageX" : 1484,
+		"imageY" : 830,
 		"image" : null
 	},
 	{
@@ -199,8 +199,8 @@
 		"imageURL" : "images/Doedicurus_Saddle.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 278,
-		"imageY" : 1266,
+		"imageX" : 1538,
+		"imageY" : 832,
 		"image" : null
 	},
 	{
@@ -216,8 +216,8 @@
 		"imageURL" : "images/Paracer_Saddle.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 343,
-		"imageY" : 1261,
+		"imageX" : 1600,
+		"imageY" : 827,
 		"image" : null
 	},
 	{
@@ -233,8 +233,8 @@
 		"imageURL" : "images/Megaloceros_Saddle.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 78,
-		"imageY" : 1319,
+		"imageX" : 1327,
+		"imageY" : 885,
 		"image" : null
 	},
 	{
@@ -250,8 +250,8 @@
 		"imageURL" : "images/Pteranodon_Saddle.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 121,
-		"imageY" : 1323,
+		"imageX" : 1208,
+		"imageY" : 844,
 		"image" : null
 	},
 	{
@@ -267,8 +267,8 @@
 		"imageURL" : "images/Sarco_Saddle.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 171,
-		"imageY" : 1319,
+		"imageX" : 1431,
+		"imageY" : 884,
 		"image" : null
 	},
 	{
@@ -284,8 +284,8 @@
 		"imageURL" : "images/Ankylo_Saddle.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 227,
-		"imageY" : 1315,
+		"imageX" : 1485,
+		"imageY" : 881,
 		"image" : null
 	},
 	{
@@ -301,8 +301,8 @@
 		"imageURL" : "images/Araneo_Saddle.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 283,
-		"imageY" : 1319,
+		"imageX" : 1542,
+		"imageY" : 885,
 		"image" : null
 	},
 	{
@@ -318,8 +318,8 @@
 		"imageURL" : "images/Mammoth_Saddle.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 11,
-		"imageY" : 1329,
+		"imageX" : 1266,
+		"imageY" : 893,
 		"image" : null
 	},
 	{
@@ -335,8 +335,8 @@
 		"imageURL" : "images/Dunkleosteus_Saddle.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 281,
-		"imageY" : 1363,
+		"imageX" : 1539,
+		"imageY" : 929,
 		"image" : null
 	},
 	{
@@ -352,8 +352,8 @@
 		"imageURL" : "images/Megalodon_Saddle.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 116,
-		"imageY" : 1368,
+		"imageX" : 1374,
+		"imageY" : 934,
 		"image" : null
 	},
 	{
@@ -369,8 +369,8 @@
 		"imageURL" : "images/Sabertooth_Saddle.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 168,
-		"imageY" : 1368,
+		"imageX" : 1425,
+		"imageY" : 935,
 		"image" : null
 	},
 	{
@@ -386,8 +386,8 @@
 		"imageURL" : "images/Paracer_Platform_Saddle.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 403,
-		"imageY" : 1262,
+		"imageX" : 1660,
+		"imageY" : 828,
 		"image" : null
 	},
 	{
@@ -403,8 +403,8 @@
 		"imageURL" : "images/Carno_Saddle.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 225,
-		"imageY" : 1364,
+		"imageX" : 1482,
+		"imageY" : 930,
 		"image" : null
 	},
 	{
@@ -420,8 +420,8 @@
 		"imageURL" : "images/Procoptodon_Saddle.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 14,
-		"imageY" : 1371,
+		"imageX" : 1321,
+		"imageY" : 939,
 		"image" : null
 	},
 	{
@@ -454,8 +454,8 @@
 		"imageURL" : "images/Argentavis_Saddle.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 14,
-		"imageY" : 1417,
+		"imageX" : 1207,
+		"imageY" : 895,
 		"image" : null
 	},
 	{
@@ -471,8 +471,8 @@
 		"imageURL" : "images/Bronto_Saddle.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 340,
-		"imageY" : 1315,
+		"imageX" : 1599,
+		"imageY" : 881,
 		"image" : null
 	},
 	{
@@ -488,8 +488,8 @@
 		"imageURL" : "images/Castoroides_Saddle.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 283,
-		"imageY" : 1147,
+		"imageX" : 1209,
+		"imageY" : 786,
 		"image" : null
 	},
 	{
@@ -505,8 +505,8 @@
 		"imageURL" : "images/Rex_Saddle.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 64,
-		"imageY" : 1419,
+		"imageX" : 1208,
+		"imageY" : 949,
 		"image" : null
 	},
 	{
@@ -522,8 +522,8 @@
 		"imageURL" : "images/Spino_Saddle.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 116,
-		"imageY" : 1415,
+		"imageX" : 1267,
+		"imageY" : 940,
 		"image" : null
 	},
 	{
@@ -539,8 +539,8 @@
 		"imageURL" : "images/Quetz_Saddle.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 344,
-		"imageY" : 1421,
+		"imageX" : 1605,
+		"imageY" : 978,
 		"image" : null
 	},
 	{
@@ -556,8 +556,8 @@
 		"imageURL" : "images/Plesiosaur_Saddle.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 342,
-		"imageY" : 1362,
+		"imageX" : 1600,
+		"imageY" : 928,
 		"image" : null
 	},
 	{
@@ -573,8 +573,8 @@
 		"imageURL" : "images/Bronto_Platform_Saddle.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 407,
-		"imageY" : 1311,
+		"imageX" : 1668,
+		"imageY" : 878,
 		"image" : null
 	},
 	{
@@ -590,8 +590,8 @@
 		"imageURL" : "images/Mosasaurus_Saddle.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 344,
-		"imageY" : 1211,
+		"imageX" : 1601,
+		"imageY" : 777,
 		"image" : null
 	},
 	{
@@ -607,8 +607,8 @@
 		"imageURL" : "images/Plesiosaur_Platform_Saddle.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 403,
-		"imageY" : 1360,
+		"imageX" : 1663,
+		"imageY" : 927,
 		"image" : null
 	},
 	{
@@ -624,8 +624,8 @@
 		"imageURL" : "images/Quetz_Platform_Saddle.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 408,
-		"imageY" : 1411,
+		"imageX" : 1668,
+		"imageY" : 980,
 		"image" : null
 	},
 	{
@@ -641,8 +641,8 @@
 		"imageURL" : "images/Mosasaurus_Platform_Saddle.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 404,
-		"imageY" : 1212,
+		"imageX" : 1660,
+		"imageY" : 778,
 		"image" : null
 	},
 	{
@@ -658,8 +658,8 @@
 		"imageURL" : "images/Giganotosaurus_Saddle.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 172,
-		"imageY" : 1419,
+		"imageX" : 1147,
+		"imageY" : 947,
 		"image" : null
 	}
 ]

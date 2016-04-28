@@ -46,8 +46,8 @@
 		"imageURL" : "images/Wooden_Sign.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 1666,
-		"imageY" : 1351,
+		"imageX" : 1660,
+		"imageY" : 597,
 		"image" : null
 	},
 	{
@@ -63,8 +63,8 @@
 		"imageURL" : "images/Hide_Sleeping_Bag.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 1794,
-		"imageY" : 1351,
+		"imageX" : 1791,
+		"imageY" : 596,
 		"image" : null
 	},
 	{
@@ -131,8 +131,8 @@
 		"imageURL" : "images/Storage_Box.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 1921,
-		"imageY" : 1346,
+		"imageX" : 1920,
+		"imageY" : 592,
 		"image" : null
 	},
 	{
@@ -148,8 +148,8 @@
 		"imageURL" : "images/Simple_Bed.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 1793,
-		"imageY" : 1411,
+		"imageX" : 1789,
+		"imageY" : 655,
 		"image" : null
 	},
 	{
@@ -165,8 +165,8 @@
 		"imageURL" : "images/Single_Panel_Flag.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 1528,
-		"imageY" : 1412,
+		"imageX" : 1527,
+		"imageY" : 659,
 		"image" : null
 	},
 	{
@@ -182,8 +182,8 @@
 		"imageURL" : "images/Multi-Panel_Flag.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 1524,
-		"imageY" : 1352,
+		"imageX" : 1523,
+		"imageY" : 601,
 		"image" : null
 	},
 	{
@@ -199,8 +199,8 @@
 		"imageURL" : "images/Standing_Torch.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 1734,
-		"imageY" : 1220,
+		"imageX" : 1733,
+		"imageY" : 464,
 		"image" : null
 	},
 	{
@@ -403,8 +403,8 @@
 		"imageURL" : "images/Wooden_Spike_Wall.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 1346,
-		"imageY" : 1416,
+		"imageX" : 1345,
+		"imageY" : 607,
 		"image" : null
 	},
 	{
@@ -420,8 +420,8 @@
 		"imageURL" : "images/Wooden_Wall_Sign.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 1668,
-		"imageY" : 1471,
+		"imageX" : 1662,
+		"imageY" : 719,
 		"image" : null
 	},
 	{
@@ -539,8 +539,8 @@
 		"imageURL" : "images/Wooden_Chair.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 1472,
-		"imageY" : 1469,
+		"imageX" : 1469,
+		"imageY" : 716,
 		"image" : null
 	},
 	{
@@ -556,8 +556,8 @@
 		"imageURL" : "images/Painting_Canvas.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 1729,
-		"imageY" : 1469,
+		"imageX" : 1726,
+		"imageY" : 718,
 		"image" : null
 	},
 	{
@@ -607,8 +607,8 @@
 		"imageURL" : "images/Large_Storage_Box.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 1925,
-		"imageY" : 1404,
+		"imageX" : 1923,
+		"imageY" : 650,
 		"image" : null
 	},
 	{
@@ -692,8 +692,8 @@
 		"imageURL" : "images/Compost_Bin.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 1982,
-		"imageY" : 1342,
+		"imageX" : 1981,
+		"imageY" : 588,
 		"image" : null
 	},
 	{
@@ -760,8 +760,8 @@
 		"imageURL" : "images/Wooden_Billboard.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 1726,
-		"imageY" : 1411,
+		"imageX" : 1723,
+		"imageY" : 655,
 		"image" : null
 	},
 	{
@@ -862,8 +862,8 @@
 		"imageURL" : "images/Wooden_Ladder.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 1408,
-		"imageY" : 1364,
+		"imageX" : 1407,
+		"imageY" : 608,
 		"image" : null
 	},
 	{
@@ -896,8 +896,8 @@
 		"imageURL" : "images/Wooden_Bench.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 1469,
-		"imageY" : 1411,
+		"imageX" : 1468,
+		"imageY" : 659,
 		"image" : null
 	},
 	{
@@ -914,7 +914,7 @@
 		"imageHeight" : 256,
 		"imageWidth" : 256,
 		"imageX" : 1467,
-		"imageY" : 1359,
+		"imageY" : 606,
 		"image" : null
 	},
 	{
@@ -930,8 +930,8 @@
 		"imageURL" : "images/Trophy_Base.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 1598,
-		"imageY" : 1469,
+		"imageX" : 1596,
+		"imageY" : 713,
 		"image" : null
 	},
 	{
@@ -947,8 +947,8 @@
 		"imageURL" : "images/Trophy_Wall-Mount.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 1726,
-		"imageY" : 1348,
+		"imageX" : 1725,
+		"imageY" : 597,
 		"image" : null
 	},
 	{
@@ -965,7 +965,7 @@
 		"imageHeight" : 256,
 		"imageWidth" : 256,
 		"imageX" : 1980,
-		"imageY" : 1404,
+		"imageY" : 649,
 		"image" : null
 	},
 	{
@@ -1186,7 +1186,7 @@
 		"imageHeight" : 256,
 		"imageWidth" : 256,
 		"imageX" : 1982,
-		"imageY" : 1473,
+		"imageY" : 715,
 		"image" : null
 	},
 	{
@@ -1220,7 +1220,7 @@
 		"imageHeight" : 256,
 		"imageWidth" : 256,
 		"imageX" : 1345,
-		"imageY" : 1364,
+		"imageY" : 660,
 		"image" : null
 	},
 	{
@@ -1254,7 +1254,7 @@
 		"imageHeight" : 256,
 		"imageWidth" : 256,
 		"imageX" : 1592,
-		"imageY" : 1352,
+		"imageY" : 599,
 		"image" : null
 	},
 	{
@@ -1338,8 +1338,8 @@
 		"imageURL" : "images/Wall_Torch.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 1735,
-		"imageY" : 1164,
+		"imageX" : 1734,
+		"imageY" : 409,
 		"image" : null
 	},
 	{
@@ -1423,8 +1423,8 @@
 		"imageURL" : "images/Metal_Wall_Sign.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 1593,
-		"imageY" : 1409,
+		"imageX" : 1594,
+		"imageY" : 656,
 		"image" : null
 	},
 	{
@@ -1542,8 +1542,8 @@
 		"imageURL" : "images/Stone_Fireplace.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 1531,
-		"imageY" : 1466,
+		"imageX" : 1529,
+		"imageY" : 712,
 		"image" : null
 	},
 	{
@@ -1661,8 +1661,8 @@
 		"imageURL" : "images/Beer_Barrel.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 309,
-		"imageY" : 791,
+		"imageX" : 312,
+		"imageY" : 788,
 		"image" : null
 	},
 	{
@@ -1882,8 +1882,8 @@
 		"imageURL" : "images/Metal_Ladder.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 1410,
-		"imageY" : 1417,
+		"imageX" : 1407,
+		"imageY" : 663,
 		"image" : null
 	},
 	{
@@ -1984,8 +1984,8 @@
 		"imageURL" : "images/Metal_Billboard.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 1666,
-		"imageY" : 1413,
+		"imageX" : 1661,
+		"imageY" : 658,
 		"image" : null
 	},
 	{
@@ -2035,8 +2035,8 @@
 		"imageURL" : "images/Electrical_Generator.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 1917,
-		"imageY" : 1166,
+		"imageX" : 1915,
+		"imageY" : 412,
 		"image" : null
 	},
 	{
@@ -2052,8 +2052,8 @@
 		"imageURL" : "images/Straight_Electrical_Cable.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 1919,
-		"imageY" : 1218,
+		"imageX" : 1918,
+		"imageY" : 465,
 		"image" : null
 	},
 	{
@@ -2069,8 +2069,8 @@
 		"imageURL" : "images/Electrical_Outlet.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 1976,
-		"imageY" : 1218,
+		"imageX" : 1975,
+		"imageY" : 464,
 		"image" : null
 	},
 	{
@@ -2080,14 +2080,14 @@
 		"health" : 1,
 		"requiredLevel" : 50,
 		"engramPoints" : 18,
-		"prerequisites" : [["structures",165]],
+		"prerequisites" : [["resource", 165]],
 		"unlocks" : [],
 		"unlocksLines" : [],
 		"imageURL" : "images/Remote_Keypad.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 1797,
-		"imageY" : 1222,
+		"imageX" : 1796,
+		"imageY" : 467,
 		"image" : null
 	},
 	{
@@ -2103,8 +2103,8 @@
 		"imageURL" : "images/Omnidirectional_Lamppost.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 1735,
-		"imageY" : 1281,
+		"imageX" : 1733,
+		"imageY" : 526,
 		"image" : null
 	},
 	{
@@ -2120,8 +2120,8 @@
 		"imageURL" : "images/Lamppost.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 1799,
-		"imageY" : 1162,
+		"imageX" : 1796,
+		"imageY" : 407,
 		"image" : null
 	},
 	{
@@ -2206,7 +2206,7 @@
 		"imageHeight" : 256,
 		"imageWidth" : 256,
 		"imageX" : 1976,
-		"imageY" : 1274,
+		"imageY" : 520,
 		"image" : null
 	},
 	{
@@ -2222,8 +2222,8 @@
 		"imageURL" : "images/Vertical_Electrical_Cable.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 1976,
-		"imageY" : 1164,
+		"imageX" : 1972,
+		"imageY" : 410,
 		"image" : null
 	},
 	{
@@ -2239,8 +2239,8 @@
 		"imageURL" : "images/Electrical_Cable_Intersection.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 1919,
-		"imageY" : 1275,
+		"imageX" : 1917,
+		"imageY" : 520,
 		"image" : null
 	},
 	{
@@ -2256,8 +2256,8 @@
 		"imageURL" : "images/Refrigerator.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 1926,
-		"imageY" : 1473,
+		"imageX" : 1922,
+		"imageY" : 718,
 		"image" : null
 	},
 	{
@@ -2273,8 +2273,8 @@
 		"imageURL" : "images/Air_Conditioner.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 1861,
-		"imageY" : 1473,
+		"imageX" : 1859,
+		"imageY" : 718,
 		"image" : null
 	},
 	{
@@ -2324,8 +2324,8 @@
 		"imageURL" : "images/Bunk_Bed.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 1794,
-		"imageY" : 1472,
+		"imageX" : 1791,
+		"imageY" : 718,
 		"image" : null
 	},
 	{
@@ -2341,8 +2341,8 @@
 		"imageURL" : "images/Vault.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 1856,
-		"imageY" : 1404,
+		"imageX" : 1854,
+		"imageY" : 652,
 		"image" : null
 	},
 	{
@@ -2358,8 +2358,8 @@
 		"imageURL" : "images/Elevator_Track.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 1800,
-		"imageY" : 1279,
+		"imageX" : 1797,
+		"imageY" : 525,
 		"image" : null
 	},
 	{
@@ -2375,8 +2375,8 @@
 		"imageURL" : "images/Small_Elevator_Platform.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 1854,
-		"imageY" : 1171,
+		"imageX" : 1851,
+		"imageY" : 416,
 		"image" : null
 	},
 	{
@@ -2392,8 +2392,8 @@
 		"imageURL" : "images/Medium_Elevator_Platform.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 1855,
-		"imageY" : 1224,
+		"imageX" : 1851,
+		"imageY" : 467,
 		"image" : null
 	},
 	{
@@ -2409,8 +2409,8 @@
 		"imageURL" : "images/Large_Elevator_Platform.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 1856,
-		"imageY" : 1279,
+		"imageX" : 1851,
+		"imageY" : 522,
 		"image" : null
 	}
 ]

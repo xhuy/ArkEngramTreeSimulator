@@ -12,8 +12,8 @@
 		"imageURL" : "images/Cloth_Pants.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 807,
-		"imageY" : 678,
+		"imageX" : 812,
+		"imageY" : 510,
 		"image" : null
 	},
 	{
@@ -29,8 +29,8 @@
 		"imageURL" : "images/Cloth_Shirt.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,	
-		"imageX" : 800,
-		"imageY" : 391,
+		"imageX" : 807,
+		"imageY" : 284,
 		"image" : null
 	},
 	{
@@ -47,7 +47,7 @@
 		"imageHeight" : 256,
 		"imageWidth" : 256,
 		"imageX" : 818,
-		"imageY" : 1200,
+		"imageY" : 910,
 		"image" : null
 	},
 	{
@@ -63,8 +63,8 @@
 		"imageURL" : "images/Cloth_Boots.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 812,
-		"imageY" : 931,
+		"imageX" : 815,
+		"imageY" : 716,
 		"image" : null
 	},
 	{
@@ -114,8 +114,8 @@
 		"imageURL" : "images/Hide_Pants.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 854,
-		"imageY" : 676,
+		"imageX" : 862,
+		"imageY" : 507,
 		"image" : null
 	},
 	{
@@ -131,8 +131,8 @@
 		"imageURL" : "images/Hide_Shirt.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 854,
-		"imageY" : 391,
+		"imageX" : 856,
+		"imageY" : 277,
 		"image" : null
 	},
 	{
@@ -148,8 +148,8 @@
 		"imageURL" : "images/Hide_Gloves.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 877,
-		"imageY" : 1197,
+		"imageX" : 878,
+		"imageY" : 906,
 		"image" : null
 	},
 	{
@@ -165,8 +165,8 @@
 		"imageURL" : "images/Hide_Boots.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 866,
-		"imageY" : 930,
+		"imageX" : 869,
+		"imageY" : 716,
 		"image" : null
 	},
 	{
@@ -200,7 +200,7 @@
 		"imageHeight" : 256,
 		"imageWidth" : 256,
 		"imageX" : 928,
-		"imageY" : 831,
+		"imageY" : 639,
 		"image" : null
 	},
 	{
@@ -216,8 +216,8 @@
 		"imageURL" : "images/Fur_Gauntlets.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 937,
-		"imageY" : 1106,
+		"imageX" : 938,
+		"imageY" : 849,
 		"image" : null
 	},
 	{
@@ -250,8 +250,8 @@
 		"imageURL" : "images/Fur_Leggings.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 916,
-		"imageY" : 553,
+		"imageX" : 920,
+		"imageY" : 406,
 		"image" : null
 	},
 	{
@@ -267,8 +267,8 @@
 		"imageURL" : "images/Fur_Chestpiece.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 907,
-		"imageY" : 297,
+		"imageX" : 912,
+		"imageY" : 204,
 		"image" : null
 	},
 	{
@@ -301,8 +301,8 @@
 		"imageURL" : "images/Chitin_Leggings.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 914,
-		"imageY" : 612,
+		"imageX" : 918,
+		"imageY" : 470,
 		"image" : null
 	},
 	{
@@ -318,8 +318,8 @@
 		"imageURL" : "images/Chitin_Chestpiece.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 909,
-		"imageY" : 348,
+		"imageX" : 915,
+		"imageY" : 254,
 		"image" : null
 	},
 	{
@@ -353,7 +353,7 @@
 		"imageHeight" : 256,
 		"imageWidth" : 256,
 		"imageX" : 942,
-		"imageY" : 1158,
+		"imageY" : 900,
 		"image" : null
 	},
 	{
@@ -369,8 +369,8 @@
 		"imageURL" : "images/Chitin_Boots.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 932,
-		"imageY" : 873,
+		"imageX" : 930,
+		"imageY" : 683,
 		"image" : null
 	},
 	{
@@ -386,8 +386,8 @@
 		"imageURL" : "images/Ghillie_Chestpiece.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 913,
-		"imageY" : 392,
+		"imageX" : 918,
+		"imageY" : 299,
 		"image" : null
 	},
 	{
@@ -403,8 +403,8 @@
 		"imageURL" : "images/Ghillie_Leggings.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 916,
-		"imageY" : 675,
+		"imageX" : 918,
+		"imageY" : 526,
 		"image" : null
 	},
 	{
@@ -437,8 +437,8 @@
 		"imageURL" : "images/Ghillie_Boots.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 933,
-		"imageY" : 932,
+		"imageX" : 932,
+		"imageY" : 736,
 		"image" : null
 	},
 	{
@@ -454,8 +454,8 @@
 		"imageURL" : "images/Ghillie_Gauntlets.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 945,
-		"imageY" : 1211,
+		"imageX" : 947,
+		"imageY" : 955,
 		"image" : null
 	},
 	{
@@ -471,8 +471,8 @@
 		"imageURL" : "images/Flak_Leggings.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 957,
-		"imageY" : 611,
+		"imageX" : 962,
+		"imageY" : 468,
 		"image" : null
 	},
 	{
@@ -488,8 +488,8 @@
 		"imageURL" : "images/Flak_Chestpiece.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 967,
-		"imageY" : 345,
+		"imageX" : 973,
+		"imageY" : 251,
 		"image" : null
 	},
 	{
@@ -505,8 +505,8 @@
 		"imageURL" : "images/Flak_Boots.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 995,
-		"imageY" : 872,
+		"imageX" : 996,
+		"imageY" : 687,
 		"image" : null
 	},
 	{
@@ -523,7 +523,7 @@
 		"imageHeight" : 256,
 		"imageWidth" : 256,
 		"imageX" : 996,
-		"imageY" : 1155,
+		"imageY" : 899,
 		"image" : null
 	},
 	{
@@ -590,8 +590,8 @@
 		"imageURL" : "images/SCUBA_Tank.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 913,
-		"imageY" : 443,
+		"imageX" : 919,
+		"imageY" : 347,
 		"image" : null
 	},
 	{
@@ -607,8 +607,8 @@
 		"imageURL" : "images/SCUBA_Leggings.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 915,
-		"imageY" : 730,
+		"imageX" : 918,
+		"imageY" : 580,
 		"image" : null
 	},
 	{
@@ -624,8 +624,8 @@
 		"imageURL" : "images/SCUBA_Flippers.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 935,
-		"imageY" : 998,
+		"imageX" : 932,
+		"imageY" : 794,
 		"image" : null
 	},
 	{
@@ -675,8 +675,8 @@
 		"imageURL" : "images/Riot_Chestpiece.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 969,
-		"imageY" : 394,
+		"imageX" : 976,
+		"imageY" : 299,
 		"image" : null
 	},
 	{
@@ -693,7 +693,7 @@
 		"imageHeight" : 256,
 		"imageWidth" : 256,
 		"imageX" : 1001,
-		"imageY" : 1208,
+		"imageY" : 952,
 		"image" : null
 	},
 	{
@@ -709,8 +709,8 @@
 		"imageURL" : "images/Riot_Leggings.png",
 		"imageHeight" : 256,
 		"imageWidth" : 256,
-		"imageX" : 958,
-		"imageY" : 675,
+		"imageX" : 961,
+		"imageY" : 525,
 		"image" : null
 	},
 	{
@@ -727,7 +727,7 @@
 		"imageHeight" : 256,
 		"imageWidth" : 256,
 		"imageX" : 998,
-		"imageY" : 930,
+		"imageY" : 734,
 		"image" : null
 	}
 ]
