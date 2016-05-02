@@ -14,7 +14,8 @@
 		"imageWidth" : 256,
 		"imageX" : 1268,
 		"imageY" : 781,
-		"image" : null
+		"image" : null,
+		"selected" : true
 	},
 	{
 		"id" : 100,

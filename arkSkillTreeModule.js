@@ -134,13 +134,11 @@ var arkSkillTreeModule = (function() {
 							value[0], value[1]);
 
 					if (beforeNode !== undefined) {
-
 						$.each(beforeNode.unlocksLines, function(index, value) {
 							var startNodeId = value[0].split("->")[0];
 							var endNodeId = value[0].split("->")[1];
 
 							if (endNodeId === objectMoving.id.toString())
-
 								value[1].set({
 									'x2' : image.left + offsetLines,
 									'y2' : image.top + offsetLines
@@ -155,24 +153,68 @@ var arkSkillTreeModule = (function() {
 			});
 
 			// When there is an event in the canvas
-//			arkSkillTreeModule.canvas.observe('mouse:down', function(e) {
-//				console.log(e);
-//				var image = e.target;
-//				console.log("Element ID: " + image.id + ", Type: " + image.type
-//						+ ", X:" + image.left + ", Y:" + image.top);
-//			});
-//			
-//			arkSkillTreeModule.canvas.on('mouse:over', function(e) {
-//				var image = e.target;
-//				console.log("Element ID: " + image.id + ", Type: " + image.type
-//						+ ", X:" + image.left + ", Y:" + image.top);
-//				// arkSkillTreeModule.showImageTools(e.target);
-//			});
-//			arkSkillTreeModule.canvas.on('mouse:out', function(e) {
-//				$('#imageDialog').remove();
-//				console.log("Hover out!");
-//			});
+			arkSkillTreeModule.canvas.observe('mouse:down', function(e) {
+				console.log(e);
+				var image = e.target;
+				console.log("Element ID: " + image.id + ", Type: " + image.type
+						+ ", X:" + image.left + ", Y:" + image.top);
 
+				var objectSelected = arkSkillTreeModule.findByIdOrName(
+						image.type, image.id);
+
+				objectSelected.objectSelected = !objectSelected.objectSelected;
+				image.setOpacity(1);
+				arkSkillTreeModule.canvas.renderAll();
+			});
+
+			arkSkillTreeModule.canvas.on('mouse:over', function(e) {
+				var image = e.target;
+				console.log("Element ID: " + image.id + ", Type: " + image.type
+						+ ", X:" + image.left + ", Y:" + image.top);
+				if (image.id !== undefined) {
+					image.setOpacity(1);
+
+					var objectSelected = arkSkillTreeModule.findByIdOrName(
+							image.type, image.id);
+
+					// Painting unlocks lines
+					$.each(objectSelected.unlocksLines, function(index, value) {
+						value[1].setStroke('rgba(255, 255, 0, 0.7)');
+					});
+
+					// Painting prerequisites lines
+					arkSkillTreeModule.paintPrerequisitesLinesWithColor(
+							objectSelected.type, objectSelected.id,
+							'rgba(0, 255, 0, 0.7)');
+
+					arkSkillTreeModule.canvas.renderAll();
+				}
+				// arkSkillTreeModule.showImageTools(e.target);
+			});
+			arkSkillTreeModule.canvas.on('mouse:out', function(e) {
+				var image = e.target;
+				$('#imageDialog').remove();
+				console.log("Hover out!");
+				if (image.id !== undefined) {
+					var objectSelected = arkSkillTreeModule.findByIdOrName(
+							image.type, image.id);
+
+					// Painting unlocks lines
+					$.each(objectSelected.unlocksLines, function(index, value) {
+						value[1].setStroke('rgba(255, 0, 0, 0.1)');
+					});
+
+					// Painting prerequisites lines
+					arkSkillTreeModule.paintPrerequisitesLinesWithColor(
+							objectSelected.type, objectSelected.id,
+							'rgba(255, 0, 0, 0.1)');
+
+					if (!objectSelected.objectSelected) {
+						image.setOpacity(0.2);
+						arkSkillTreeModule.canvas.renderAll();
+					}
+				}
+			});
 		},
 
 		// Drawing images to the canvas from an array which are the json objects
@@ -192,6 +234,7 @@ var arkSkillTreeModule = (function() {
 					image.top = value.imageY;
 					image.hasControls = image.hasBorders = false;
 					image.selectable = true;
+					image.setOpacity(0.2);
 					arkSkillTreeModule.canvas.add(image);
 				});
 			});
@@ -218,17 +261,6 @@ var arkSkillTreeModule = (function() {
 							selectable : false
 						});
 
-						line.setGradient('fill', {
-						    x1: -line.width / 2,
-						    y1: 0,
-						    x2: line.width / 2,
-						    y2: 0,
-						    colorStops: {
-						        0: 'black',
-						        1: 'red'
-						    }
-						});
-						
 						father.unlocksLines.push([ father.id + "->" + son.id,
 								line ]);
 
@@ -384,13 +416,10 @@ var arkSkillTreeModule = (function() {
 		},
 
 		checkData : function() {
-			if (armorItems !== undefined
-					&& cookingItems !== undefined
+			if (armorItems !== undefined && cookingItems !== undefined
 					&& craftingItems !== undefined
-					&& resourceItems !== undefined
-					&& saddleItems !== undefined
-					&& structureItems !== undefined
-					&& toolsItems !== undefined
+					&& resourceItems !== undefined && saddleItems !== undefined
+					&& structureItems !== undefined && toolsItems !== undefined
 					&& weaponsItems !== undefined) {
 				arkSkillTreeModule.drawImages(armorItems);
 				arkSkillTreeModule.drawImages(craftingItems);
@@ -411,6 +440,48 @@ var arkSkillTreeModule = (function() {
 				arkSkillTreeModule.drawLines(saddleItems);
 			}
 
+		},
+
+		getPendingMath : function(points) {
+			var pending = undefined;
+
+			var x1 = points[0];
+			var y1 = points[1];
+
+			var x2 = points[2];
+			var y2 = points[3];
+
+			var deltaY = y2 - y1;
+			var deltaX = x2 - x1;
+
+			pending = deltaY / deltaX;
+
+			return pending;
+		},
+
+		// 'rgba(255, 0, 0, 0.1)'
+		paintPrerequisitesLinesWithColor : function(type, id, color) {
+
+			var objectSelected = arkSkillTreeModule.findByIdOrName(type, id);
+
+			$.each(objectSelected.prerequisites, function(index, value1) {
+				var beforeNode = arkSkillTreeModule.findByIdOrName(value1[0],
+						value1[1]);
+				if (beforeNode !== undefined) {
+					$.each(beforeNode.unlocksLines, function(index, value2) {
+						var startNodeId = value2[0].split("->")[0];
+						var endNodeId = value2[0].split("->")[1];
+
+						if (endNodeId === objectSelected.id.toString()) {
+							value2[1].setStroke(color);
+							arkSkillTreeModule
+									.paintPrerequisitesLinesWithColor(
+											beforeNode.type, beforeNode.id,
+											color)
+						}
+					});
+				}
+			});
 		},
 
 		getCookingItems : function() {
